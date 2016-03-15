@@ -1,6 +1,9 @@
+#!/usr/bin/env python2.7
+
 from nutchpy import sequence_reader
 import argparse
 import sys
+import json
 
 # Dumps all the contents of the crawldb
 def getDump(path):
@@ -8,7 +11,6 @@ def getDump(path):
     while True:
         # Reads 1000 at a time to prevent overflow
         data = sequence_reader.slice(i, i + 1000, path)
-        
         if not data:
             break
         for url, meta in data:
@@ -48,7 +50,7 @@ def getFailed(path):
             status = meta.get('Status').strip()
             if status in failure:
                 failed += 1
-                yield url
+                yield url, meta
         else:
             print "There is no status for %s" %(url)
 
@@ -65,8 +67,9 @@ def generate_report(args):
                 dump.write("%s\n%s\n" %(url, meta))
     elif cmd == 'failed':
         with open(args['report'], 'w') as failed:
-            for url in getFailed(args['crawldb']):
-                failed.write("%s\n" %(url))
+            for url, meta in getFailed(args['crawldb']):
+                meta_parsed = json.dumps(meta, indent=4, separators=(',', ': '))
+                failed.write("%s\n%s\n" %(url, meta_parsed))
     elif cmd == 'mimes':
         with open(args['report'], 'w') as mimes:
             for mime, count in getMimes(args['crawldb']).iteritems():
