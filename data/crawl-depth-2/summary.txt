@@ -1,0 +1,28 @@
+retry 1 = 2
+retry 0 = 6382
+avgScore = 0.003325658
+totalUrls = 6384
+minScore = 0.0
+status:
+    1:
+        count = 6013
+        statusValue = db_unfetched
+    3:
+        count = 3
+        statusValue = db_gone
+    2:
+        count = 313
+        statusValue = db_fetched
+    5:
+        count = 40
+        statusValue = db_redir_perm
+    4:
+        count = 10
+        statusValue = db_redir_temp
+    7:
+        count = 4
+        statusValue = db_duplicate
+    6:
+        count = 1
+        statusValue = db_notmodified
+maxScore = 1.333

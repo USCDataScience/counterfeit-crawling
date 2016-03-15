@@ -27,7 +27,9 @@
 
 # skip image and other suffixes we can't yet parse
 # for a more extensive coverage use the urlfilter-suffix plugin
--\.(gif|GIF|jpg|JPG|png|PNG|ico|ICO|css|CSS|sit|SIT|eps|EPS|wmf|WMF|zip|ZIP|ppt|PPT|mpg|MPG|xls|XLS|gz|GZ|rpm|RPM|tgz|TGZ|mov|MOV|exe|EXE|jpeg|JPEG|bmp|BMP|js|JS)$
+#-\.(gif|GIF|jpg|JPG|png|PNG|ico|ICO)$
+
+-\.(css|CSS|sit|SIT|eps|EPS|wmf|WMF|zip|ZIP|ppt|PPT|mpg|MPG|xls|XLS|gz|GZ|rpm|RPM|tgz|TGZ|mov|MOV|exe|EXE|jpeg|JPEG|bmp|BMP|js|JS)$
 
 # skip URLs containing certain characters as probable queries, etc.
 -[?*!@=]
@@ -39,13 +41,13 @@
 # +.
 
 # accept only from seeded sites
-+^http://www.etitan.net
-+^http://www.chiptech.com
-+^http://www.icdigitalelectronics.com
-+^http://www.1sourcecomponents.com
-+^http://www.1sourcemilaero.com
-+^http://www.carlinsystems.com
-+^http://www.4starelectronics.com
-+^http://www.gictg.com
-+^http://www.stockingdistributors.com
-+^http://www.icsource.com
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*etitan.net/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*chiptech.com/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*icdigitalelectronics.com/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*1sourcecomponents.com/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*1sourcemilaero.com/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*carlinsystems.com/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*4starelectronics.com/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*gictg.com/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*stockingdistributors.com/
++^(ftp|https|http)://([a-zA-Z0-9]*\.)*icsource.com/

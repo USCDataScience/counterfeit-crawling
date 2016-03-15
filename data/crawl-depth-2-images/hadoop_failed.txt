@@ -1,0 +1,52 @@
+failed with: Http code=405, url=http://www.1sourcemilaero.com/xmlrpc.php
+
+failed with: java.lang.NullPointerException
+
+failed with: java.lang.NullPointerException
+
+failed with: java.lang.NullPointerException
+
+failed with: java.lang.NullPointerException
+
+failed with: java.lang.NullPointerException
+
+failed with: java.lang.NullPointerException
+
+failed with: java.lang.NullPointerException
+
+failed with: java.lang.NullPointerException
+
+failed with: java.lang.NullPointerException
+
+failed with: java.lang.NullPointerException
+
+failed with: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+
+failed with: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7063; process output follows: 
+
+failed with: java.lang.RuntimeException: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+
+failed with: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7061; process output follows: 
+
+failed with: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+
+failed with: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7061; process output follows: 
+
+failed with: java.lang.RuntimeException: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+
+failed with: org.apache.nutch.protocol.ProtocolNotFound: protocol not found for url=https
+
+failed with: org.apache.nutch.protocol.ProtocolNotFound: protocol not found for url=https
+
+failed with: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7066; process output follows: 
+
+failed with: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7061; process output follows: 
+
+failed with: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: Unable to bind to locking port 7054 within 45000 ms
+
+failed with: java.lang.RuntimeException: org.openqa.selenium.WebDriverException: Failed to connect to binary FirefoxBinary(/Applications/Firefox.app/Contents/MacOS/firefox-bin) on port 7064; process output follows: 
+
+failed with: org.apache.nutch.protocol.ProtocolNotFound: protocol not found for url=https
+
+failed with: Http code=405, url=http://www.1sourcemilaero.com/xmlrpc.php
+

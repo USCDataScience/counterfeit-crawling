@@ -27,7 +27,7 @@
       fetcher.threads.per.queue is set to 1.
     </description>
   </property>
-
+  
   <property>
     <name>http.agent.rotate</name>
     <value>true</value>
@@ -65,10 +65,77 @@
   </property>
   
   <property>
+    <name>http.content.limit</name>
+    <value>2097152</value> <!-- Set to 2MB -->
+    <description>The length limit for downloaded content using the http://
+      protocol, in bytes. If this value is nonnegative (>=0), content longer
+      than it will be truncated; otherwise, no truncation at all. Do not
+      confuse this setting with the file.content.limit setting.
+    </description>
+</property>
+  
+  <property>
+    <name>db.max.outlinks.per.page</name>
+    <value>-1</value>
+    <description>The maximum number of outlinks that we'll process for a page.
+      If this value is nonnegative (>=0), at most db.max.outlinks.per.page outlinks
+      will be processed for a page; otherwise, all outlinks will be processed.
+    </description>
+  </property>
+
+  <property>
+    <name>parser.skip.truncated</name>
+    <value>false</value>
+    <description>Boolean value for whether we should skip parsing for truncated documents. By default this 
+      property is activated due to extremely high levels of CPU which parsing can sometimes take.  
+    </description>
+  </property>
+
+  <property>
     <name>http.robot.rules.whitelist</name>
     <value>etitan.net, chiptech.com, icdigitalelectronics.com, 1sourcecomponents.com, 1sourcemilaero.com, carlinsystems.com, 4starelectronics.com, gictg.com, stockingdistributors.com, icsource.com</value>
     <description> Ignore robots.txt for seeded sites.
     </description>
-</property>
+  </property>
   
+  <property>
+    <name>plugin.includes</name>
+    <value>protocol-interactiveselenium|urlfilter-(regex|ignoreexempt)|parse-(html|tika)|index-(basic|anchor)|scoring-opic|urlnormalizer-(pass|regex|basic)</value>
+    <description> Plugins (includes interactiveselenium plugin)
+    </description>
+  </property>
+  
+  <property>
+    <name>interactiveselenium.handlers</name>
+    <value>handlers.DefaultHandler</value>
+    <description> AJAX handlers
+    </description>
+  </property>
+
+  <property>
+    <name>selenium.hub.port</name>
+    <value>4444</value>
+    <description>Selenium Hub Location connection port</description>
+  </property>
+  
+  <property>
+    <name>selenium.hub.host</name>
+    <value>localhost</value>
+    <description>Selenium Hub Location connection host</description>
+  </property>
+  
+  <property>
+    <name>selenium.hub.protocol</name>
+    <value>http</value>
+    <description>Selenium Hub Location connection protocol</description>
+  </property>
+  
+  <property>
+    <name>selenium.grid.driver</name>
+    <value>firefox</value>
+    <description>A String value representing the flavour of Selenium 
+      WebDriver() used on the selenium grid. Currently the following options
+      exist - 'firefox' </description>
+  </property>
+
 </configuration>

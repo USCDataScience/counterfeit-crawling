@@ -1,0 +1,7 @@
+text/html, 216
+application/rss+xml, 3
+application/xml, 1
+application/json, 1
+text/x-php, 7
+application/pdf, 6
+application/xhtml+xml, 133

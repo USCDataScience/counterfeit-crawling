@@ -1,0 +1,12 @@
+application/rss+xml, 3
+text/html, 197
+image/jpeg, 35
+unknown, 11776
+image/png, 109
+image/vnd.microsoft.icon, 4
+image/gif, 10
+application/xml, 1
+application/json, 1
+text/x-php, 7
+application/pdf, 6
+application/xhtml+xml, 121

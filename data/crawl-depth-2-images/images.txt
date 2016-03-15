@@ -1,0 +1,2370 @@
+http://1sourcecomponents.com/store/hp_images/Call%201-Source.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:14 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: fd29ab9186779762100774ac4a54442f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=89
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/Electronic%20Components.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:06 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 2955bada9405586d13a66623e265bdbf
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=91
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/LEDs%20and%20Lighting.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:49 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: feb50daade920b8e7572e6fd0387a113
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=1200
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/header_mag.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:04 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 09fef3f9bfe4cd451e5b52c0eb52c9ee
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=365
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/logo.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:16 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 3daca9b4a0dd66f9c1bd7f21b64a59dd
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=87
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/store_batteries.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:35 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: fcb11b927f9bd7216fed30000db5ae92
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=88
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/store_capacitors.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:49 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: dba6fdb78cd9e82cd0ad38ae2f2b791b
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=88
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/store_connectors.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:37 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 22bcda9e45610b025541f4eebe4a414f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=90
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/store_lcd.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:19 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: bc366133244c32bcde15f57ef1e1b895
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=87
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/store_micro.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:49 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 8491a95afc8cd495bbed73059738701a
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=85
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/store_relays.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:57 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 3bc07d25ca946d9ea4fc3e7eb50132e7
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=90
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/store_tools.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:43 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: aad9c9ba1edac23befa5366e9f898230
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=87
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://1sourcecomponents.com/store/hp_images/store_wire.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:33 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 6213a3bbf2347eadf663aeb16595eb1a
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=88
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/arrowdown.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:11 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 751ae48c1192266c482f409469147aa0
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=151
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/arrowwhite.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:36 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: fa006a361900efd30dcec505d0216934
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=173
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/checkgreen2.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:42 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 808510198c88cf474decc8828d81943a
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=149
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/gallery/arrowleft.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:13 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 221e2de8240e2981b8e60f5531d424a3
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=152
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/gallery/arrowright.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:31 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: d6101806f5178b55d5c6513715805d86
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=152
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/gallery/close.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:15 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: a8f9bafb2ed34e67cfaa6f57a6aabcd4
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=159
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/gallery/loading.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:04 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 821333aaaf8bad9c2b327ccb2a924475
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=151
+	Content-Type=image/gif
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/homeicon.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:22 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 8297372a3f7e9582f093e94fd616e340
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=152
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/phone.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:27 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: aa7ac7386144b254083a6e0ad33b9db1
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=170
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/screen1.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:20 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 2aaeaee713f17c04d116c3fdceb162fe
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=3106
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/screen2.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:06 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: f807773683c524dd765ac7b72c12698e
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=470
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/screen3.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:38 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 88b8083627523c42e701b0bc1ef448fb
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=451
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/screen4.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:33 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 990b7f0cfb7e8ee83add2e1b2b5dc462
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=372
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/searchbutton.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:40 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 668c625e0d70454b16c0f9a20064949d
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=151
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/Homepage/tagbottom.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:25 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 3de568722cdc55d10f1b1aa015c732d2
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=151
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://images.icsource.com/icsfavicon.ico
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:09 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 6c1e07286c2dce41907d649abec87420
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=220
+	Content-Type=image/vnd.microsoft.icon
+	nutch.protocol.code=200
+
+http://images.icsource.com/loginbutton.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:29 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0
+Signature: 86b96fe03740038a5cf0a9e7e1daf188
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=147
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/plugins/social-media-widget/images/default/32/digg.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:50 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: null
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=50
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/plugins/social-media-widget/images/default/32/facebook.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:09 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: null
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=70
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/plugins/social-media-widget/images/default/32/googleplus.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:09 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: null
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=54
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/plugins/social-media-widget/images/default/32/linkedin.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:41 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: null
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=71
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/plugins/social-media-widget/images/default/32/reddit.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:12 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: null
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=1061
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/plugins/social-media-widget/images/default/32/twitter.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:54 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: null
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=71
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/plugins/social-media-widget/images/default/32/youtube.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:37 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: null
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=63
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/themes/fullscreen/images/icon1.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:42 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: null
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=74
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/themes/fullscreen/images/icon2.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:34:05 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: null
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=61
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/themes/fullscreen/images/icon3.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:51 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: null
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=243
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/02/dreamstime2.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:24 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.013333334
+Signature: 38ebb351d80d2d615b8b20937b3c2355
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=421
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/061102-N-5240C-004.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:27 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: a9c25453287e1e3902322dbb66564a89
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=965
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/080701-N-4305C-002.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:39 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: baec5f0b6d7c6a6b03de7ed067bbe826
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=121
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/Military12.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:29 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: 23fdba1515c754d1451eec6ef11fa385
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=143
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/Military31.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:57 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: 65ed4bae23cd36c716d5b90a2e3df4d0
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=173
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/Navy.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:18 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: 2613a813194150312cd30eaa8a11c8a9
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=1105
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/USAF11.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:36 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: 6fa0d61cde33772cc5b70287d3172d23
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=1426
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/USAF2.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:07 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: 31843caf2102873594f6bb514c7f4b40
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=1939
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/USAF32.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:21 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: 60ccc3efd882e7bf694f3e4f0d53599b
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=397
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/dreamstime_s_16413356.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:07 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: 6951eb4a01a24b290133662de1666468
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=158
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/dreamstime_s_2578899.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:23 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.020289809
+Signature: 69afa15be819405c0b60b4ba03d76312
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=110
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/dreamstime_s_26263306.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:00 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: d0df24f429e5c1f18944af7ae2325c61
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=2174
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/favicon.ico
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:31 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: d33d4f14552a3bb0dd9226b3e44f1124
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=53
+	Content-Type=image/vnd.microsoft.icon
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/logo-web.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:52 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: 0f87a3c34a3dbccf32be33697e596921
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=62
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/logo_footer.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:04 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: 0f1954e78502be9f49c9eb4b99a7e18f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=117
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.1sourcemilaero.com/wp-content/uploads/2011/12/paypal_logo1.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:34:03 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.019964606
+Signature: bb4b2fc160efa061d1641d243972ef78
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=64
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/favicon2.ico
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:25 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0177126
+Signature: db02886804c06a0dfa6eb7b1200e7fec
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=74
+	Content-Type=image/vnd.microsoft.icon
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/4star-brochure-sm.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:52 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.016451312
+Signature: eda3bd7bf692b58b44a31bed937ad1c5
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=2270
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/4star-logo.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:34:13 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.01828403
+Signature: 2936375d1594067b5f5580cd2065765f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=230
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/certs-sm.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:31 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0101
+Signature: 9bf01219b9d5028650a803fa9571226f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=185
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-baxter.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:05 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 697cf1707a476c69d9babeca7ed98ec1
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=1161
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-boeing.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:38 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 4acb3448ef204f29ea16348892a6eba4
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=139
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-edison.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:34:30 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 60b45581354b85f3ca988f212523d95b
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=221
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-flextronics.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:35 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: e25d48f38106cb40cdd910f105caf600
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=136
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-freescale.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:34:43 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 05c23151b72dcf8ec3e0c462a06840f6
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=166
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-haliburton.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:34:57 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: c5d5aadfd6ff204f4e4e77444d0121b9
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=133
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-honeywell.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:50 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 6f64f3989e0d6919b5d3b9045f25d376
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=4502
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-intel.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:16 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: a9b3c9e9470bd5babf145281b81774fc
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=168
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-kohler.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:34:17 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: bb00659edac1598e4631b64d76a2d5c7
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=136
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-lockheed.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:33 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 2d879f5c37e50a47e2a4993ba5957773
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=239
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-northrop.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:18 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 68137d50491893b25bf5e3503bc9e8f5
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=170
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-philips.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:20 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 390be0ceaa86074d41510e9f47e916b4
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=3140
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-qualcomm.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:42 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 5a9a8df50ff2e9a7f95cac8800b7ad7f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=173
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-siemens.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:34:45 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 92dd0e11d42177920937eed012267e70
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=129
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-tektronics.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:27 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 1c1929d8615b282788459d6447e8cb61
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=135
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-teradyne.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:41 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: e54a7fe5c790967cc6b7ddc10d61da5f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=162
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/client-logo-thales.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:08 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010671428
+Signature: 63e33d93cd5a5777ada09063a617133d
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=11200
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.4starelectronics.com/images/quality-sm.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:34:33 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.01
+Signature: e687069e13d5eff017a92d05dd01b8cd
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=1160
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/23rd-Aniversary-Slogan-blue.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:14 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.023809524
+Signature: cc58392fb49b3cc47b03d64d679f3ff5
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=27
+	Content-Type=image/gif
+	nutch.protocol.code=200
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/3cards.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:08 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.023809524
+Signature: b83128ece2e343e622fd0dff7dbfeebe
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=59
+	Content-Type=image/gif
+	nutch.protocol.code=200
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/9001-2000-RvA_black-2.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:12 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.036341626
+Signature: a59ceec064c27bc26ed9c63eafac33a4
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=63
+	Content-Type=image/gif
+	nutch.protocol.code=200
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/Building%20Photos/Bldg-3.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:28 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.023809524
+Signature: 5161f6bd1d279d3633c365d4b54288e6
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=182
+	Content-Type=image/gif
+	nutch.protocol.code=200
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/CSI-Address-tag_blue.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:45 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.036341626
+Signature: 564634d034b836aa0fad7c70161dd1ec
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=38
+	Content-Type=image/gif
+	nutch.protocol.code=200
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/FSM-tag-line.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:14 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.023809524
+Signature: e3eefab3f3d870bba7a682d22118db8f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=54
+	Content-Type=image/gif
+	nutch.protocol.code=200
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/csi_top_left2.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:16 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.036341626
+Signature: 9cb38e9fea2020dec5e5ccfc61dd9d39
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=21
+	Content-Type=image/gif
+	nutch.protocol.code=200
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/excellence_right_blue_O.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:53 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.036341626
+Signature: f336c8d522c194630327571027c8f7e8
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=38
+	Content-Type=image/gif
+	nutch.protocol.code=200
+
+http://www.carlinsystems.com/All%20Graphics/client-gif/eraimem02-a.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:47 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.023809524
+Signature: 9cd3c1cabe409c744f6ad67d60e42a88
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=66
+	Content-Type=image/gif
+	nutch.protocol.code=200
+
+http://www.carlinsystems.com/All%20Graphics/client_jpegs/Eaton_ResUS_B-130.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:12 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.023809524
+Signature: c4e53d7dad5a50cbe44a541fee65916e
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=7879
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20141202/20141202115422_8752.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:33 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: aa301437b337d6795e070725e990d9ec
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=77
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20141202/20141202115432_8867.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:56 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 22fa75ee99e835f05f35ef00ec2d4a95
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=38
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20141202/20141202115442_8393.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:09 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 885744896bf7f0648b6fff64ab87b570
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=622
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20141218/20141218170724_5619.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:27 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0101
+Signature: a447a1100351967710342180e48ce1ed
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=1794
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20141218/20141218171133_1061.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:20 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0101
+Signature: ecce349b617dce7195a202555de5c9ea
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=833
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20141218/20141218171207_5046.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:08 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0101
+Signature: 44c849c30b58889e83587986ab2801f8
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=730
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20141223/20141223101017_3118.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:36 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0101
+Signature: c5f9bf70bbb3d2a04b0b9ffa1e4c73bd
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=1433
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150113/20150113145502_8123.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:11 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0232303
+Signature: 663b4e528bb1acb7f33f3944af473bf8
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=132
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150113/20150113145613_8076.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:15 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0232303
+Signature: b24aed118c86c287fa338a1fb672432d
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=183
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150113/20150113150959_8241.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:49 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.020399999
+Signature: 9752915971748d06d0346223c4856da7
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=29
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119144341_9261.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:33 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 840a1b2c5114ea80215f3feb9bb0c7da
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=77
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119144519_3369.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:36 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: e9617e619fc58139c7a1601b2d11fd85
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=426
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119144626_5288.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:13 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 3960b985cec51ae36fe1cbc2416a878f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=230
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119145058_6560.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:46 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: aa7b0eba73d857e905226a55aabf797c
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=377
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119151045_9435.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:43 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 187abc5fb1ab20510e1ee46eb273b327
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=426
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119154833_3076.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:21 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0232303
+Signature: dc6217c71afd3c7a2dfea3b1df3321a7
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=711
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119155633_5686.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:45 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 25dfab52713e5c6b70a0d0b4639f0329
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=690
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119160021_4286.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:01 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: c5df817a3261bfa9f4208b7e63fd8ebd
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=575
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119160233_3836.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:29 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: d2df5c2159423b27b066c6747a92a2fc
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=282
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119160356_9528.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:54 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: b8dcf43e48be692f696e9a7c289a4d73
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=171
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119160620_7939.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:05 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 151bf733f390fc5940a7698caa26deae
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=176
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119161416_9530.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:56 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 706ea047cf6555a3eb2aadef6a38601f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=313
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150119/20150119164702_6514.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:31 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.020399999
+Signature: 1a1532c7f78593f956fe2ea8c92da451
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=21
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150121/20150121121559_1911.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:08 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 91d76863e39095d29a84c09768fdb948
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=278
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150121/20150121125511_6073.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:17 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 4decdfae9c56372ff9bc7cec48f2e57d
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=326
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150121/20150121125618_1615.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:50 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 78fc1ad075451db8f6749b64ee9335b5
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=321
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150121/20150121125725_5115.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:52 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 2b747526b97d799c91dc4a27af959954
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=671
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150121/20150121125818_3474.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:48 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 92da6a317953a44ffed00ae44c15fcf1
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=332
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150122/20150122173324_8140.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:07 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 735eba494af131a1b0e1e665cb75be25
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=433
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150122/20150122174128_9137.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:00 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: b572061675035fbd02a960280bf932a7
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=26
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150122/20150122190714_5857.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:42 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: f9d1e48aa043e3198f77573b69c16c8d
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=32
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150123/20150123153511_8387.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:04 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0232303
+Signature: 943ef1b38b65e482da50bd479e1e7601
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=28
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150123/20150123153524_5819.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:23 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.020399999
+Signature: fcf59ba6385af71a703e8c574112bf57
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=26
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150123/20150123153547_3271.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:31 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: c91ceda25a3201d3b01582b5bd3f6af2
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=504
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150123/20150123153605_4651.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:11 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: c9777937cb0d146f0403b687cb822b3d
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=26
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150123/20150123153703_8877.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:58 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: b1eb20e2ef8eca43dac4f3340c36babc
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=22
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150123/20150123153715_6887.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:28 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 2e33f1df8309bf53b4211e5f90bd5cbb
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=27
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150123/20150123153734_3940.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:26 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.020399999
+Signature: 04bcfc3312967c7b14df873874400cbd
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=27
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150123/20150123154424_1708.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:38 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: 1b552044d8e5633543ccf39f161bae58
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=472
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20150123/20150123180612_2037.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:54 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: f8ad82c7f897812ec7a047a3f28b8d60
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=1174
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20151225/20151225145642_6776.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:24 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.0232303
+Signature: 667f1b0883140d604d0d2c35287c3eed
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=27
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20151225/20151225150033_1355.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:59 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: bf8e79b2128baee4f7022fa5faf1960f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=520
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.etitan.net/uploadfiles/image/20151225/20151225150425_4976.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:47 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.010199999
+Signature: c508d5b9546f9bab9a25e256462d6628
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=128
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/face.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:28 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.07692308
+Signature: d00f013379a4db4088be55c533261388
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=64
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/footer_01.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:04 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.07692308
+Signature: eca85cba73cd97387b5f949191daca58
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=31
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/footer_02.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:19 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.07692308
+Signature: ac9772db33ba918f948e868a734cc3c0
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=496
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/footer_03.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:25 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.07692308
+Signature: 09f77dde3233b9daf8ce10e30558a191
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=27
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/google.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:08 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.07692308
+Signature: 407af6eba1e9791f29200ce5e2a580d7
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=28
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/link.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:14 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.07692308
+Signature: ca3792843f82d2f19992da2ac81f3d12
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=30
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/rss.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:12 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.07692308
+Signature: 2791bd21dbc60bab557ab55f2908a720
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=29
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/twit.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:23 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.07692308
+Signature: e696e3a54efe602329d0a7976befe3ef
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=30
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/video.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:10 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.07692308
+Signature: 9cbd73fd2e52ab781142076c9d46ccc5
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=37
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.gictg.com/wp-content/uploads/2012/03/logo.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:06 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.07692308
+Signature: 3fcbdff23007b2901668bf37960be31c
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=33
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.icdigitalelectronics.com/assets/designer/themes/default/images/arw-L.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:34:36 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.01
+Signature: 5744b8fdc0e607a1cebb038ba1e6bac9
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=128
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.icdigitalelectronics.com/assets/designer/themes/default/images/arw-R.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:11 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.01
+Signature: 514fcbc8d90a7bac4913ff14f6ad4d12
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=127
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.icdigitalelectronics.com/assets/designer/themes/default/images/brow-img.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:51 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.020050954
+Signature: 2c0fa421851ddd44efc6bdc52793b3b9
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=3068
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.icdigitalelectronics.com/assets/designer/themes/default/images/ic-logo.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:34:11 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.021403864
+Signature: aba9928f8c5495403bf767c2025eeb2b
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=188
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.icdigitalelectronics.com/assets/designer/themes/default/images/pointer-img.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:32:56 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.03111111
+Signature: 1b13864b286d012e55dbab61cba18718
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=129
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.icdigitalelectronics.com/assets/designer/themes/default/images/quote-l.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:06 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.03111111
+Signature: 23ed9923951013b763cc962c2a6f9575
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=129
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.icdigitalelectronics.com/assets/designer/themes/default/images/quote-r.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:33:27 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.03111111
+Signature: 53fcdf8335709cc2d6fa9dda118dcbef
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=132
+	Content-Type=image/jpeg
+	nutch.protocol.code=200
+
+http://www.icdigitalelectronics.com/favicon.ico
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:35:08 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.011552909
+Signature: 2128524988263893adb26ed1d374b052
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=126
+	Content-Type=image/vnd.microsoft.icon
+	nutch.protocol.code=200
+
+http://www.stockingdistributors.com/images/scrollable/logos/americaii.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:06 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.041666668
+Signature: ea53afedc79a5e1c86d7bdd681ab6f0f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=179
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.stockingdistributors.com/images/scrollable/logos/chipoutpost.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:35 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.041666668
+Signature: d8fdf948ad8946b556f2195e61e1d0e7
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=172
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.stockingdistributors.com/images/scrollable/logos/digitron.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:13 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.041666668
+Signature: 1a291a5b90797fbcfbca4f2503f59122
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=335
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.stockingdistributors.com/images/scrollable/logos/electronicexp.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:08 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.041666668
+Signature: 3a8aa2201f835d44dec86a69e0433c98
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=173
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.stockingdistributors.com/images/scrollable/logos/future.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:48 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.041666668
+Signature: 4f8321249c487ae123bda1c2593af94c
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=165
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.stockingdistributors.com/images/scrollable/logos/magnitude.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:46 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.041666668
+Signature: 98cb3d39dcd4eaf079bb47584df9f600
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=157
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.stockingdistributors.com/images/scrollable/logos/newark.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:44 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.041666668
+Signature: f5e7e79de48067c784d50b52937702f6
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=164
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.stockingdistributors.com/images/scrollable/logos/telmil.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:40 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.041666668
+Signature: 22c3fe98eab66c257b727eea498ea62f
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=160
+	Content-Type=image/png
+	nutch.protocol.code=200
+
+http://www.stockingdistributors.com/images/scrollable/logos/triangle.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Wed Apr 13 01:31:38 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.041666668
+Signature: 8f1bfe89a779406efa47bea75e37bddb
+Metadata: 
+ 	_pst_=success(1), lastModified=0
+	_rs_=149
+	Content-Type=image/png
+	nutch.protocol.code=200
+

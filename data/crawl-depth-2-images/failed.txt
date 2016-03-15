@@ -1,0 +1,52 @@
+http://www.icdigitalelectronics.com/uploaded_files/document/HOTT_PARTS6tEw.pdf
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Thu Apr 28 01:33:17 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.020050954
+Signature: null
+Metadata: 
+ 	_pst_=robots_denied(18), lastModified=0
+
+http://www.icdigitalelectronics.com/uploaded_files/thumb_cache/thumb_1600_327_slide1NKCi.jpg
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Thu Apr 28 01:31:26 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.01
+Signature: null
+Metadata: 
+ 	_pst_=robots_denied(18), lastModified=0
+
+http://www.icsource.com/Home/fdafsd
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Thu Apr 28 01:31:04 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.0
+Signature: null
+Metadata: 
+ 	_pst_=notfound(14), lastModified=0: http://www.icsource.com/Home/fdafsd
+	_rs_=149
+	nutch.protocol.code=404
+
+http://www.icsource.com/Home/services.html
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Thu Apr 28 01:31:28 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.0
+Signature: null
+Metadata: 
+ 	_pst_=notfound(14), lastModified=0: http://www.icsource.com/Home/services.html
+	_rs_=151
+	nutch.protocol.code=404
+
