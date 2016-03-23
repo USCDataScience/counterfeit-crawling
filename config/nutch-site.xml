@@ -72,8 +72,128 @@
       than it will be truncated; otherwise, no truncation at all. Do not
       confuse this setting with the file.content.limit setting.
     </description>
-</property>
+  </property>
+
+  <property>
+    <name>db.fetch.schedule.class</name>
+    <value>org.apache.nutch.crawl.AdaptiveFetchSchedule</value>
+    <description>The implementation of fetch schedule. DefaultFetchSchedule simply
+      adds the original fetchInterval to the last fetch time, regardless of
+      page changes, whereas AdaptiveFetchSchedule (see below) tries to adapt
+      to the rate at which a given page is changed. 
+    </description>
+  </property>
   
+  <property>
+    <name>fetcher.server.min.delay</name>
+    <value>6.0</value>
+    <description>The minimum number of seconds the fetcher will delay between 
+      successive requests to the same server. This value is applicable ONLY
+      if fetcher.threads.per.queue is greater than 1 (i.e. the host blocking
+      is turned off).</description>
+  </property>
+  
+  <property>
+    <name>fetcher.max.crawl.delay</name>
+    <value>10</value><!-- 0 -->
+    <description>
+      If the Crawl-Delay in robots.txt is set to greater than this value (in
+      seconds) then the fetcher will skip this page, generating an error report.
+      If set to -1 the fetcher will never skip such pages and will wait the
+      amount of time retrieved from robots.txt Crawl-Delay, however long that
+      might be.
+    </description>
+  </property> 
+  
+  <property>
+    <name>fetcher.threads.fetch</name>
+    <value>1</value><!-- Easier to look at error log -->
+    <description>The number of FetcherThreads the fetcher should use.
+      This is also determines the maximum number of requests that are
+      made at once (each FetcherThread handles one connection). The total
+      number of threads running in distributed mode will be the number of
+      fetcher threads * number of nodes as fetcher has one map task per node.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.verbose</name>
+    <value>true</value>
+    <description>If true, fetcher will log more verbosely.</description>
+  </property>
+  
+  <property>
+    <name>fetcher.parse</name>
+    <value>false</value>
+    <description>If true, fetcher will parse content. Default is false, which means
+      that a separate parsing step is required after fetching is finished.</description>
+  </property>
+  
+  <property>
+    <name>fetcher.store.content</name>
+    <value>true</value>
+    <description>If true, fetcher will store content.</description>
+  </property>
+  
+  <property>
+    <name>fetcher.timelimit.mins</name>
+    <value>80</value>
+    <description>This is the number of minutes allocated to the fetching.
+      Once this value is reached, any remaining entry from the input URL list is skipped 
+      and all active queues are emptied. The default value of -1 deactivates the time limit.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.max.exceptions.per.queue</name>
+    <value>-1</value><!-- -1 -->
+    <description>The maximum number of protocol-level exceptions (e.g. timeouts) per
+      host (or IP) queue. Once this value is reached, any remaining entries from this
+      queue are purged, effectively stopping the fetching from this host/IP. The default
+      value of -1 deactivates this limit.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.throughput.threshold.pages</name>
+    <value>-1</value><!-- -1 -->
+    <description>The threshold of minimum pages per second. If the fetcher downloads less
+      pages per second than the configured threshold, the fetcher stops, preventing slow queue's
+      from stalling the throughput. This threshold must be an integer. This can be useful when
+      fetcher.timelimit.mins is hard to determine. The default value of -1 disables this check.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.follow.outlinks.ignore.external</name>
+    <value>true</value> <!-- Changed from false --> 
+    <description>Whether to ignore or follow external links. Set db.ignore.external.links to false and this to true to store outlinks
+      in the output but not follow them. If db.ignore.external.links is true this directive is ignored.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.threads.per.queue</name>
+    <value>1</value><!-- 1 -->
+    <description>This number is the maximum number of threads that
+      should be allowed to access a queue at one time. Setting it to 
+      a value > 1 will cause the Crawl-Delay value from robots.txt to
+      be ignored and the value of fetcher.server.min.delay to be used
+      as a delay between successive requests to the same server instead 
+      of fetcher.server.delay.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.queue.depth.multiplier</name>
+    <value>1</value> <!-- Changed from 50 -->
+    <description>(EXPERT)The fetcher buffers the incoming URLs into queues based on the [host|domain|IP]
+      (see param fetcher.queue.mode). The depth of the queue is the number of threads times the value of this parameter.
+      A large value requires more memory but can improve the performance of the fetch when the order of the URLS in the fetch list
+      is not optimal.
+    </description>
+  </property>
+
   <property>
     <name>db.max.outlinks.per.page</name>
     <value>-1</value>
@@ -82,7 +202,7 @@
       will be processed for a page; otherwise, all outlinks will be processed.
     </description>
   </property>
-
+  
   <property>
     <name>parser.skip.truncated</name>
     <value>false</value>
@@ -107,7 +227,7 @@
   
   <property>
     <name>interactiveselenium.handlers</name>
-    <value>handlers.DefaultHandler</value>
+    <value>CustomHandler, DefaultHandler</value>
     <description> AJAX handlers
     </description>
   </property>

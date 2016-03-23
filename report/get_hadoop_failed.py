@@ -7,7 +7,7 @@ import sys
 def getFailed(path):
     for line in open(path):
         if 'failed with' in line:
-            yield line[line.find('failed with'):]
+            yield line[line.find('INFO') + 4:].strip()
 
 def main(argv=sys.argv):
     parser = argparse.ArgumentParser(description="Looks through Hadoop Log for Failures")

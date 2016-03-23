@@ -1,0 +1,22 @@
+1. Update Tika version in ivy/ivy.xml
+<dependency org="org.apache.tika" name="tika-parsers" rev = "1.13-SNAPSHOT" />
+
+2. Update Tika version in src/plugin/parse-tika/ivy.xml
+<dependency org="org.apache.tika" name="tika-parsers" rev="1.13-SNAPSHOT" conf="*->default">
+
+3. Update version in src/plugin/parse-tika/plugin.xml
+<library name="tika-parsers-1.13-SNAPSHOT.jar"/>
+
+4. Configure Nutch to use new Tika in ivy/ivysettings.xml.
+<property name="local-maven2-dir" value="file://${user.home}/.m2/repository/"/>
+
+<ibiblio name="local-maven-2"
+             root="${local-maven2-dir}"
+             pattern="${maven2.pattern.ext}"
+             m2compatible="true"/>
+
+<resolver ref="local-maven-2"/>
+
+<module organisation="org.apache.tika" name=".*" resolver="internal"/>
+
+<ivy:cleancache/>
