@@ -11,7 +11,8 @@ whitelist, as well as URL filtering from only host seeded sites.
 
 Set URL filters to accept image MIME extensions.
 
-Changed Nutch to run in single-threaded fetching to suppor Selenium plugin.
+Changed Nutch to run in single-threaded fetching to support Selenium plugin. Edited
+parameters in Nutch crawl script to single node.
 
 
 Part 2: Nutchpy and Report Generation
