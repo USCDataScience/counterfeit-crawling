@@ -17,8 +17,7 @@ import org.slf4j.LoggerFactory;
  * @author Joey Hong
  */
 public class CustomHandler implements InteractiveSeleniumHandler {
-    public static final Logger LOG = LoggerFactory
-	.getLogger(CustomHandler.class);
+    public static final Logger LOG = LoggerFactory.getLogger(CustomHandler.class);
     
     /** 
      * Waits for Javascript to execute.
@@ -51,12 +50,12 @@ public class CustomHandler implements InteractiveSeleniumHandler {
      */
     @Override
     public String processDriver(WebDriver driver) {
-	String ret = "";
+	String content = "";
 	if (driver.getCurrentUrl().equalsIgnoreCase("http://www.etitan.net/")) {
-	    ret += loginEtitan(driver);
+	    loginEtitan(driver);
 	    try {
 		driver.findElement(By.xpath("//a[text()='Line Card']")).click();
-		ret += driver.getPageSource();
+		content += driver.findElement(By.tagName("body")).getAttribute("innerHTML");
 	    }
 	    catch (NoSuchElementException e) {
 	    }
@@ -64,8 +63,9 @@ public class CustomHandler implements InteractiveSeleniumHandler {
 	else if (driver.getCurrentUrl().equalsIgnoreCase("http://www.icdigitalelectronics.com/")) {
 	    /** Navigate to electronic parts */
 	    try {
-		driver.findElement(By.linkText("Line Card")).click();
-		ret += driver.getPageSource();
+		driver.findElement(By.xpath("//a[@title='Line Card']")).click();
+		LOG.info("Found Line Card: {}", driver.getCurrentUrl());
+		content += driver.findElement(By.tagName("body")).getAttribute("innerHTML");
 	    }
 	    catch (NoSuchElementException e) {
 	    }
@@ -74,31 +74,30 @@ public class CustomHandler implements InteractiveSeleniumHandler {
 	    /** Navigate to browse store */
 	    try {
 		driver.findElement(By.linkText("Browse Store")).click();
-		ret += driver.getPageSource();
+		content += driver.findElement(By.tagName("body")).getAttribute("innerHTML");
 	    }
 	    catch (NoSuchElementException e) {
 	    }
 	}
 	else if (driver.getCurrentUrl().equalsIgnoreCase("http://www.1sourcemilaero.com/")) {
-	    ret += navigate1sourcemilaero(driver);
+	    content += navigate1sourcemilaero(driver);
 	}
 	else if (driver.getCurrentUrl().equalsIgnoreCase("http://www.4starelectronics.com/")) {
 	    /** Navigate to electronic parts */
 	    try {
 		driver.findElement(By.xpath("//a[text()='Line Card']")).click();
-		ret += driver.getPageSource();
+		content += driver.findElement(By.tagName("body")).getAttribute("innerHTML");
 	    }
 	    catch (NoSuchElementException e) {
 	    }
 	}
-	return ret;
+	return content;
     }
     
     /**
      * Login to the Etitan site 
      */
-    public String loginEtitan(WebDriver driver) {
-	String ret = "";
+    public void loginEtitan(WebDriver driver) {
 	try {
 	    driver.findElement(By.className("btn_log")).click();
 	    waitforJavascript(driver);
@@ -112,13 +111,11 @@ public class CustomHandler implements InteractiveSeleniumHandler {
 		.click();
 	    waitforJavascript(driver);
 	    
-	    ret += driver.getPageSource();
 	    LOG.info("Successfully logged in: {}", driver.getCurrentUrl());
 	}
 	catch (Exception e) {
 	    LOG.info("Could not log in: {}", driver.getCurrentUrl());
 	}
-	return ret;
     }
 
     /**
@@ -126,7 +123,7 @@ public class CustomHandler implements InteractiveSeleniumHandler {
      * pages that include information about site's products.
      */
     public String navigate1sourcemilaero(WebDriver driver) {
-	String ret = "";
+	String content = "";
 	try {
 	    WebElement menu = driver.findElement(By.xpath("//li[contains(@class, 'menu-item-410')]"));
 	    
@@ -139,14 +136,14 @@ public class CustomHandler implements InteractiveSeleniumHandler {
 		waitforJavascript(driver);
 		
 		LOG.info("Found page: {}", driver.getCurrentUrl());
-		ret += driver.getPageSource();
+		content += driver.findElement(By.tagName("body")).getAttribute("innerHTML");
 		driver.navigate().back();
 	    }
 	}
 	catch (Exception e) {
 	    LOG.info("Error occured navigating: {}", driver.getCurrentUrl());
 	}
-	return ret;
+	return content;
     }
     
     @Override

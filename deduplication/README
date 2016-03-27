@@ -1,0 +1,3 @@
+To run the deduplication on test-images, you must first parse out the metadata of the images
+into a dump file. To do so, a script as been written in the image-scripts/ directory that 
+does this exact task.

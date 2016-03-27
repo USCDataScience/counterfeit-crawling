@@ -5,6 +5,8 @@ from nutch.nutch import Server
 import argparse
 import sys
 import json
+import os
+import urllib
 
 DefaultServerEndpoint = 'http://localhost:8081'
 
@@ -20,13 +22,15 @@ nutch.Verbose = False
 
 def getSegments(path):
     import glob
-    
+
     regex_path = path + '/*/content/part-*/data'
     return glob.glob(regex_path)
     
 
 # Returns image url, and concatenated string of metadata values   
 def getImageMeta(path, n):
+    from normalize_images import getContent
+
     values = {"path" : path }
 
     extensions = ['jpeg', 'jpg', 'gif', 'png', 'bmp', 'tif', 'tiff', 'ico']
@@ -45,8 +49,26 @@ def getImageMeta(path, n):
             site_list = site.encode('utf-8').split('.')
             
             if site_list[-1].lower() in extensions:
-                metadata = ''.join(meta for meta in element[1] if meta.isalnum())
+                metadata = ''.join(meta + ';' for meta in element[1] if meta.isalnum())
+                
+                # Download the image into temporary file
+                temp_file = 'temp.' + site_list[-1]
+                f = open(temp_file, 'wb')
+                img = urllib.urlopen(line_url)
+                f.write(img.read())
+                f.close()
+                
+                # Read the pixel content of image, and append to metadata 
+                full_path = os.getcwd() + temp_file
+                image_pixels = getContent(full_path)
+                
+                metadata = metadata.join(str(i) for i in image_pixels)
+                
+                # Remove the temporary file
+                os.remove(temp_file)
+
                 yield site, metadata.encode('ascii', 'ignore')
+                
                 n -= 1
                 if n == 0:
                     break

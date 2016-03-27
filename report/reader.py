@@ -1,5 +1,8 @@
 #!/usr/bin/env python2.7
 
+# Deprecated in favor of using Nutch-Python and REST API
+# calls.
+
 from nutchpy import sequence_reader
 import argparse
 import sys

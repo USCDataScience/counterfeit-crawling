@@ -51,7 +51,7 @@ def downloadImages(path, n):
         for ext in extensions:
             if ext in site[0]:
                 try:
-                    urllib.urlretrieve(str(site[0]), '../data/images/' + 'image' + str(counter) + ext)
+                    urllib.urlretrieve(str(site[0]), 'image' + str(counter) + ext)
                     counter += 1
                     break
                 except:
