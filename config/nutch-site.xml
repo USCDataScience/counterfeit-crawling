@@ -303,7 +303,7 @@
   
   <property>
     <name>interactiveselenium.handlers</name>
-    <value>CustomHandler</value>
+    <value>CustomHandler, DefaultHandler</value>
     <description> AJAX handlers </description>
   </property>
 
@@ -331,6 +331,16 @@
     <description> A String value representing the flavour of Selenium 
       WebDriver() used on the selenium grid. Currently the following options
       exist - 'firefox' </description>
+  </property>
+  
+  <property>
+    <name>libselenium.page.load.delay</name>
+    <value>120</value>
+    <description>
+      The delay in seconds to use when loading a page with lib-selenium. This
+      setting is used by protocol-selenium and protocol-interactiveselenium
+      since they depending on lib-selenium for fetching.
+    </description>
   </property>
 
 </configuration>

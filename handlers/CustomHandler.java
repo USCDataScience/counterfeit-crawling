@@ -8,6 +8,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.NoSuchElementException;
 
+import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,32 +21,45 @@ import org.slf4j.LoggerFactory;
  * @author Joey Hong
  */
 public class CustomHandler implements InteractiveSeleniumHandler {
-    public static final Logger LOG = LoggerFactory.getLogger(CustomHandler.class);
+    public static final Logger LOG = LoggerFactory
+	.getLogger(CustomHandler.class);
     
     /** 
      * Waits for Javascript to execute.
      */
     public void waitforJavascript(WebDriver driver) {
-	long timeout = 10 * 1000; /* At most 10 seconds */
+	WebDriverWait wait = new WebDriverWait(driver, 30);
 	
-	long start = System.currentTimeMillis();
-	while (true) {
-	    if (System.currentTimeMillis() - start > timeout) {
-		LOG.info("Timeout reached at URL: {}", driver.getCurrentUrl());
-		break;
+	ExpectedCondition<Boolean> jQueryLoad = new ExpectedCondition<Boolean>() {
+	    @Override
+	    public Boolean apply(WebDriver driver) {
+		try {
+		    return (boolean) ((JavascriptExecutor) driver)
+		    .executeScript("return JQuery.active == 0");
+		    
+		}
+		catch (Exception e) {
+		    return true;
+		}
 	    }
-	    boolean done = (boolean) ((JavascriptExecutor) driver)
-		.executeScript("return JQuery.active == 0");
-	    if (done) {
-		break;
+	};
+	// wait for Javascript to load
+	ExpectedCondition<Boolean> jsLoad = new ExpectedCondition<Boolean>() {
+	    @Override
+	    public Boolean apply(WebDriver driver) {
+		try {
+		    return (boolean) ((JavascriptExecutor) driver)
+		    .executeScript("return document.readyState").toString().equals("complete");
+		}
+		catch (Exception e) {
+		    return true;
+		}
 	    }
-	    try {
-		Thread.sleep(100);
-	    } catch (InterruptedException e) {
-		e.printStackTrace();
-	    }
-	}
-									 
+	};
+	
+	wait.until(jQueryLoad);
+	wait.until(jsLoad);
+
     }
     
     /**
@@ -51,10 +68,12 @@ public class CustomHandler implements InteractiveSeleniumHandler {
     @Override
     public String processDriver(WebDriver driver) {
 	String content = "";
+	LOG.info("Processing URL: {}", driver.getCurrentUrl());		
+		
 	if (driver.getCurrentUrl().equalsIgnoreCase("http://www.etitan.net/")) {
 	    loginEtitan(driver);
 	    try {
-		driver.findElement(By.xpath("//a[text()='Line Card']")).click();
+		driver.findElement(By.xpath("//a[text()='products']")).click();
 		content += driver.findElement(By.tagName("body")).getAttribute("innerHTML");
 	    }
 	    catch (NoSuchElementException e) {
@@ -64,7 +83,6 @@ public class CustomHandler implements InteractiveSeleniumHandler {
 	    /** Navigate to electronic parts */
 	    try {
 		driver.findElement(By.xpath("//a[@title='Line Card']")).click();
-		LOG.info("Found Line Card: {}", driver.getCurrentUrl());
 		content += driver.findElement(By.tagName("body")).getAttribute("innerHTML");
 	    }
 	    catch (NoSuchElementException e) {
@@ -79,7 +97,7 @@ public class CustomHandler implements InteractiveSeleniumHandler {
 	    catch (NoSuchElementException e) {
 	    }
 	}
-	else if (driver.getCurrentUrl().equalsIgnoreCase("http://www.1sourcemilaero.com/")) {
+	else if (driver.getCurrentUrl().equalsIgnoreCase("http://www.1sourcemilaero.com/#")) {
 	    content += navigate1sourcemilaero(driver);
 	}
 	else if (driver.getCurrentUrl().equalsIgnoreCase("http://www.4starelectronics.com/")) {
@@ -100,10 +118,13 @@ public class CustomHandler implements InteractiveSeleniumHandler {
     public void loginEtitan(WebDriver driver) {
 	try {
 	    driver.findElement(By.className("btn_log")).click();
-	    waitforJavascript(driver);
+	    
+	    WebDriverWait wait = new WebDriverWait(driver, 10);
+	    wait.until(ExpectedConditions.presenceOfElementLocated(By.id("lousername")));
 	    
 	    WebElement email = driver.findElement(By.id("lousername"));
 	    WebElement password = driver.findElement(By.id("lopassword"));
+ 	   
 	    email.sendKeys("seleniumjplcrawler@gmail.com");
 	    password.sendKeys("apachenutchspider");
 	    
@@ -124,26 +145,27 @@ public class CustomHandler implements InteractiveSeleniumHandler {
      */
     public String navigate1sourcemilaero(WebDriver driver) {
 	String content = "";
-	try {
-	    WebElement menu = driver.findElement(By.xpath("//li[contains(@class, 'menu-item-410')]"));
+        try {
+            WebElement menu = driver.findElement(By.xpath("//li[contains(@class, 'menu-item-410')]"));
+            LOG.info("Found menu: {}", driver.getCurrentUrl());
 	    
-	    /* Find all sub-sections of a menu */
-	    List<WebElement> categories = menu.findElements(By.xpath(".//a"));
-	    for (WebElement element : categories) {
-		/* Navigates only to the relevant links */
-		String link = element.getAttribute("href");
-		driver.get(link);
-		waitforJavascript(driver);
-		
-		LOG.info("Found page: {}", driver.getCurrentUrl());
-		content += driver.findElement(By.tagName("body")).getAttribute("innerHTML");
-		driver.navigate().back();
-	    }
-	}
-	catch (Exception e) {
-	    LOG.info("Error occured navigating: {}", driver.getCurrentUrl());
-	}
-	return content;
+            /* Find all sub-sections of a menu */
+            List<WebElement> categories = menu.findElements(By.xpath(".//a"));
+	    
+            for (WebElement element : categories) {
+                /* Navigates only to the relevant links */
+                String link = element.getAttribute("href");
+        	driver.get(link);
+                waitforJavascript(driver);
+
+                LOG.info("Found page: {}", driver.getCurrentUrl());
+                content += driver.findElement(By.tagName("body")).getAttribute("innerHTML");
+            }
+        }
+        catch (Exception e) {
+            LOG.info("Error occured navigating: {}", driver.getCurrentUrl());
+        }
+        return content;
     }
     
     @Override
