@@ -19,6 +19,13 @@ nutch_server = Server(DefaultServerEndpoint, False)
 
 nutch.Verbose = False
 
+def getSegments(root_path):
+    import glob
+
+    regex_path = root_path + '/current/part-*/data'
+    return glob.glob(regex_path)
+
+
 # Gets all image links
 def getImageURLS(path):
     values = { "path" : path }
@@ -41,6 +48,7 @@ def getImageURLS(path):
         
     print "Total Image URLS: %d" %(count)
 
+
 # Downloads the images
 def downloadImages(path, n):
     values = { "path" : path }
@@ -58,28 +66,31 @@ def downloadImages(path, n):
                     print 'Unable to Download Image: %s' %(str(site[0]))
         if counter >= n:
             break
+
         
 def main(argv=sys.argv):
     parser = argparse.ArgumentParser(description="Nutch Get Images")
     
     subparsers = parser.add_subparsers(help="sub-commands", dest="cmd")
     url_parser = subparsers.add_parser("url", help="get urls of images")
-    url_parser.add_argument("-db", "--db-path", help="path to crawldb sequence files", required=True)
+    url_parser.add_argument("-db", "--db-path", help="path to crawldb", required=True)
     url_parser.add_argument("-r", "--report", help="path to report",required=True)
     
     download_parser = subparsers.add_parser("get", help="downalods images")
-    download_parser.add_argument("-db", "--db-path", help="path to crawldb sequence files", required=True)
+    download_parser.add_argument("-db", "--db-path", help="path to crawldb", required=True)
     download_parser.add_argument("-n", "--num", help="number of images to download", default=20, type=int)
     
     args=vars(parser.parse_args(argv))
     
     if args['cmd'] == 'url':
         with open(args['report'], 'w') as images:
-            for site in getImageURLS(args['db_path']):
-                for meta in site:
-                    images.write("%s\n" %(meta))
+            for path in getSegments(args['db_path']):
+                for site in getImageURLS(path):
+                    for meta in site:
+                        images.write("%s\n" %(meta))
     elif args['cmd'] == 'get':
-        downloadImages(args['db_path'], args['num'])
+        for path in getSegments(args['db_path']):
+            downloadImages(path, args['num'])
     else:
         print "Invalid Command: %s" % cmd
 

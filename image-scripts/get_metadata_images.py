@@ -23,7 +23,7 @@ nutch.Verbose = False
 def getSegments(path):
     import glob
 
-    regex_path = path + '/*/content/part-*/data'
+    regex_path = path + '/*/parse_data/part-*/data'
     return glob.glob(regex_path)
     
 

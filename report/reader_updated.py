@@ -18,6 +18,13 @@ nutch_server = Server(DefaultServerEndpoint, False)
 
 nutch.Verbose = False
 
+def getSegments(root_path):
+    import glob
+
+    regex_path = root_path + '/current/part-*/data'
+    return glob.glob(regex_path)
+
+
 def dict_to_string(dictionary, ident = ''):
     """ Recursively prints nested dictionaries."""
 
@@ -57,33 +64,35 @@ def getDump(path, n):
             yield site
         i = i + 1000
 
+
 # Gets a map of mimes and frequency
-def getMimes(path):
-    values = { "path" : path }
-    
+def getMimes(root_path):
     mimes = {}
     key = 'Content-Type'
     
-    i = 0
-    while True:
-        data = nutch_server.call('post', '/reader/sequence/read?start=%s&end=%s' 
-                                 % (i, i + 1000), data=values, headers=JsonSendHeader)
-        if not data:
-            break
-        # print data
-        for site in data:
-            for meta in site:
-                found = meta.find(key)
-                if found != -1:
-                    begin = meta.find('=', found) + 1
-                    end = meta.find('\n', begin)
-                    mime = meta[begin:end].strip()
-                    mimes[mime] = mimes.get(mime, 0) + 1
-                    break
-                else:
-                    mimes['unknown'] = mimes.get('unknown', 0) + 1
-        i = i + 1000
-        
+    for path in getSegments(root_path):
+        values = { "path" : path }
+
+        i = 0
+        while True:
+            data = nutch_server.call('post', '/reader/sequence/read?start=%s&end=%s' 
+                                     % (i, i + 1000), data=values, headers=JsonSendHeader)
+            if not data:
+                break
+            # print data
+            for site in data:
+                for meta in site:
+                    found = meta.find(key)
+                    if found != -1:
+                        begin = meta.find('=', found) + 1
+                        end = meta.find('\n', begin)
+                        mime = meta[begin:end].strip()
+                        mimes[mime] = mimes.get(mime, 0) + 1
+                        break
+                    else:
+                        mimes['unknown'] = mimes.get('unknown', 0) + 1
+            i = i + 1000
+                        
     print "Total MIME Types: %d" %(len(mimes) - 1)
     return mimes
         
@@ -122,14 +131,16 @@ def generate_report(args):
             stats.write(dict_to_string(dict))
     elif cmd == 'dump':
         with open(args['report'], 'w') as dump:
-            for site in getDump(args['db_path'], args['num']):
-                for meta in site:
-                    dump.write("%s\n" %(meta))
+            for path in getSegments(args['db_path']):
+                for site in getDump(path, args['num']):
+                    for meta in site:
+                        dump.write("%s\n" %(meta))
     elif cmd == 'failed':
         with open(args['report'], 'w') as failed:
-            for site in getFailed(args['db_path']):
-                for meta in site:
-                    failed.write("%s\n" %(meta))
+            for path in getSegments(args['db_path']):
+                for site in getFailed(path):
+                    for meta in site:
+                        failed.write("%s\n" %(meta))
     elif cmd == 'mimes':
         with open(args['report'], 'w') as mimes:
             for mime, count in getMimes(args['db_path']).iteritems():
@@ -148,19 +159,17 @@ if __name__ == '__main__':
     stats_parser.add_argument("-r", "--report", help="path to report", required=True)
     
     dump_parser = subparsers.add_parser("dump", help="dumps crawled urls and metadata")
-    dump_parser.add_argument("-p", "--db-path", help="path to crawldb sequence files", required=True)
+    dump_parser.add_argument("-p", "--db-path", help="path to crawldb", required=True)
     dump_parser.add_argument("-r", "--report", help="path to report", required=True)
     dump_parser.add_argument("-n", "--num", help="number of urls", default=5000, type=int)
 
     failed_parser = subparsers.add_parser("failed", help="dumps failed crawls")
-    failed_parser.add_argument("-p", "--db-path", help="path to crawldb sequence files", required=True)
+    failed_parser.add_argument("-p", "--db-path", help="path to crawldb", required=True)
     failed_parser.add_argument("-r", "--report", help="path to report", required=True)
 
     mime_parser = subparsers.add_parser("mimes", help="scans for different mimes")
-    mime_parser.add_argument("-p", "--db-path", help="path to crawldb sequence files", required=True)
+    mime_parser.add_argument("-p", "--db-path", help="path to crawldb", required=True)
     mime_parser.add_argument("-r", "--report", help="path to report", required=True)
 
     args = vars(parser.parse_args(sys.argv[1:]))
     generate_report(args)
-    
-    

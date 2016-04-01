@@ -297,13 +297,13 @@
   
   <property>
     <name>plugin.includes</name>
-    <value>protocol-interactiveselenium|urlfilter-(regex|ignoreexempt)|parse-(html|tika)|index-(basic|anchor)|scoring-opic|urlnormalizer-(pass|regex|basic)</value>
-    <description> Plugins (includes interactiveselenium plugin) </description>
+    <value>protocol-(interactiveselenium|httpclient)|urlfilter-(regex|ignoreexempt)|parse-(html|tika)|index-(basic|anchor)|scoring-opic|scoring-similarity|urlnormalizer-(pass|regex|basic)</value>
+    <description> Plugins (includes interactiveselenium and scoring-similarity) </description>
   </property>
   
   <property>
     <name>interactiveselenium.handlers</name>
-    <value>CustomHandler, DefaultHandler</value>
+    <value>CustomHandler</value>
     <description> AJAX handlers </description>
   </property>
 
@@ -342,5 +342,15 @@
       since they depending on lib-selenium for fetching.
     </description>
   </property>
-
+  
+  <property>
+    <name>cosine.goldstandard.file</name>
+    <value>goldstandard.txt</value>
+  </property>
+  
+  <property>
+    <name>scoring.similarity.stopword.file</name>
+    <value>stopwords.txt</value>
+  </property>
+  
 </configuration>

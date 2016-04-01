@@ -1,0 +1,56 @@
+http://www.carlinsystems.com/ERAI%20Cetificate.pdf
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Mon May 16 09:04:14 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 1.0301368
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/ERAI%20Cetificate.pdf
+	_rs_=1376
+
+http://www.carlinsystems.com/Img/WebWizard/Spacer.gif
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Mon May 16 09:03:22 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.8681165
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/Img/WebWizard/Spacer.gif
+	_rs_=1696
+
+http://www.carlinsystems.com/map_1.jpg
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Mon May 16 09:04:10 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.15526958
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/map_1.jpg
+	_rs_=46169
+
+http://www.carlinsystems.com/www.ny-chariots.org/index
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Mon May 16 09:23:17 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.20687316
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/www.ny-chariots.org/index
+	_rs_=1819
+

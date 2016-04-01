@@ -62,3 +62,9 @@ images' parsed metadata, whereas exact duplicates merely compute a hash of the i
 
 Added an implementation of simhashing for near deduplication, which will work better for 
 large datasets.
+
+
+7: Scoring Similarity
+------------------------------------------
+Incorporated plugin that uses cosine distance from a goldstandard to score how relevant a page 
+is to the desired content.

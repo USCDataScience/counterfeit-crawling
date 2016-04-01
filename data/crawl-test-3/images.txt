@@ -1,0 +1,510 @@
+http://www.4starelectronics.com/images/4star-brochure-sm.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:29:28 PDT 2016
+Modified time: Fri Apr 01 09:29:28 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 174.93683
+Signature: eda3bd7bf692b58b44a31bed937ad1c5
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=219
+
+http://www.4starelectronics.com/images/client-logo-baxter.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 08:55:19 PDT 2016
+Modified time: Fri Apr 01 08:55:19 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.9682138
+Signature: 697cf1707a476c69d9babeca7ed98ec1
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=159
+
+http://www.4starelectronics.com/images/client-logo-intel.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:33:07 PDT 2016
+Modified time: Fri Apr 01 09:33:07 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.4841069
+Signature: a9b3c9e9470bd5babf145281b81774fc
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=161
+
+http://www.4starelectronics.com/images/client-logo-northrop.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:33:15 PDT 2016
+Modified time: Fri Apr 01 09:33:15 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.4841069
+Signature: 68137d50491893b25bf5e3503bc9e8f5
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=140
+
+http://www.4starelectronics.com/images/client-logo-qualcomm.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:28:45 PDT 2016
+Modified time: Fri Apr 01 09:28:45 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.4841069
+Signature: 5a9a8df50ff2e9a7f95cac8800b7ad7f
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=168
+
+http://www.4starelectronics.com/images/images_mfg_logos/Microchip-Technology.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 11:00:00 PDT 2016
+Modified time: Fri Apr 01 11:00:00 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.17265196
+Signature: 5944d9984487228990068f7c9561212a
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/gif
+	_pst_=success(1), lastModified=0
+	_rs_=105
+
+http://www.4starelectronics.com/images/images_mfg_logos/micrel.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 12:09:25 PDT 2016
+Modified time: Fri Apr 01 12:09:25 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.20814304
+Signature: b8058781a5514cdbd3b3eeed79abf8f6
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/gif
+	_pst_=success(1), lastModified=0
+	_rs_=99
+
+http://www.4starelectronics.com/images/logo-ERAI.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 10:40:38 PDT 2016
+Modified time: Fri Apr 01 10:40:38 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.16184059
+Signature: d1c71efa62159e941e722cf48ed6fcae
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=199
+
+http://www.4starelectronics.com/images/logo-FAA.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:33:17 PDT 2016
+Modified time: Fri Apr 01 09:33:17 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.27856615
+Signature: b8986bf622540177b74087200dc58db6
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=468
+
+http://www.4starelectronics.com/images/logo-SMTA.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 12:18:50 PDT 2016
+Modified time: Fri Apr 01 12:18:50 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.16184059
+Signature: 07c32bd3688c3a78fc0649885e90f6f4
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=365
+
+http://www.4starelectronics.com/images_interface/footer_logobar_ERAI_gray.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:04:10 PDT 2016
+Modified time: Fri Apr 01 09:04:10 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 238.67155
+Signature: 4c0ad09754177b742845afd6f332acd0
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=1474
+
+http://www.4starelectronics.com/images_interface/footer_logobar_ESD_gray.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:10:51 PDT 2016
+Modified time: Fri Apr 01 09:10:51 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 238.67155
+Signature: 8c56114a3510ab79dd4fdac129c3ccbb
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=97
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/3cards.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 08:56:13 PDT 2016
+Modified time: Fri Apr 01 08:56:13 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.22445728
+Signature: b83128ece2e343e622fd0dff7dbfeebe
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/gif
+	_pst_=success(1), lastModified=0
+	_rs_=59
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/9001-2000-RvA_black-2.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 08:57:02 PDT 2016
+Modified time: Fri Apr 01 08:57:02 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 1.5931852
+Signature: a59ceec064c27bc26ed9c63eafac33a4
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/gif
+	_pst_=success(1), lastModified=0
+	_rs_=43
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/Building%20Photos/Bldg-3.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:35:07 PDT 2016
+Modified time: Fri Apr 01 09:35:07 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.22445728
+Signature: 5161f6bd1d279d3633c365d4b54288e6
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/gif
+	_pst_=success(1), lastModified=0
+	_rs_=153
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/FSM-tag-line.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 08:57:04 PDT 2016
+Modified time: Fri Apr 01 08:57:04 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.22445728
+Signature: e3eefab3f3d870bba7a682d22118db8f
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/gif
+	_pst_=success(1), lastModified=0
+	_rs_=40
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/Sales-Service-gb.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:17:12 PDT 2016
+Modified time: Fri Apr 01 09:17:12 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.21704866
+Signature: caf6e6da84a1fd14ee610552d0627620
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/gif
+	_pst_=success(1), lastModified=0
+	_rs_=47
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/map_1-small.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:04:18 PDT 2016
+Modified time: Fri Apr 01 09:04:18 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.15526958
+Signature: bc3ec76c470447a73eb5ca5b7c41663f
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/jpeg
+	_pst_=success(1), lastModified=0
+	_rs_=115
+
+http://www.carlinsystems.com/All%20Graphics/CSI_Graphics/map_2-small.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:04:16 PDT 2016
+Modified time: Fri Apr 01 09:04:16 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.15526958
+Signature: 68e31fcd6a9d735e9fbecd9f4610e77d
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/jpeg
+	_pst_=success(1), lastModified=0
+	_rs_=102
+
+http://www.carlinsystems.com/All%20Graphics/client-gif/3ware_2.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 11:28:27 PDT 2016
+Modified time: Fri Apr 01 11:28:27 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.17119923
+Signature: ac6d13da99f936e87a201ae0adcfc6c8
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/gif
+	_pst_=success(1), lastModified=0
+	_rs_=169
+
+http://www.carlinsystems.com/All%20Graphics/client-gif/Brochure-TSRL-English-AP.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:17:10 PDT 2016
+Modified time: Fri Apr 01 09:17:10 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.21798664
+Signature: 95acdbab4754fe61ac629aa9e2955802
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/gif
+	_pst_=success(1), lastModified=0
+	_rs_=185
+
+http://www.carlinsystems.com/All%20Graphics/client-gif/centon1.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 12:00:03 PDT 2016
+Modified time: Fri Apr 01 12:00:03 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.17119923
+Signature: 2e3a7f27629543f0c2e6727168600c25
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/gif
+	_pst_=success(1), lastModified=0
+	_rs_=28
+
+http://www.carlinsystems.com/All%20Graphics/client-gif/etri2.gif
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 11:31:25 PDT 2016
+Modified time: Fri Apr 01 11:31:25 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.17119923
+Signature: dd57003597eb9ed1b100fefc1ee5d4b9
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/gif
+	_pst_=success(1), lastModified=0
+	_rs_=32
+
+http://www.carlinsystems.com/All%20Graphics/client_jpegs/Eaton_ResUS_B-comp.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 10:00:54 PDT 2016
+Modified time: Fri Apr 01 10:00:54 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.17119923
+Signature: 6f349ff42fe5bb7aa3182e0fcf39adac
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/jpeg
+	_pst_=success(1), lastModified=0
+	_rs_=65
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/footer_01.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 08:55:21 PDT 2016
+Modified time: Fri Apr 01 08:55:21 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.28344786
+Signature: eca85cba73cd97387b5f949191daca58
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=504
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/footer_02.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 08:56:08 PDT 2016
+Modified time: Fri Apr 01 08:56:08 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.28344786
+Signature: ac9772db33ba918f948e868a734cc3c0
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=30
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/google.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 08:55:25 PDT 2016
+Modified time: Fri Apr 01 08:55:25 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.28344786
+Signature: 407af6eba1e9791f29200ce5e2a580d7
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=29
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/link.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 08:55:31 PDT 2016
+Modified time: Fri Apr 01 08:55:31 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.28344786
+Signature: ca3792843f82d2f19992da2ac81f3d12
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=42
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/rss.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 08:55:29 PDT 2016
+Modified time: Fri Apr 01 08:55:29 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.28344786
+Signature: 2791bd21dbc60bab557ab55f2908a720
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=29
+
+http://www.gictg.com/wp-content/themes/Karma/images/_global/video.jpg
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 08:55:27 PDT 2016
+Modified time: Fri Apr 01 08:55:27 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.28344786
+Signature: 9cbd73fd2e52ab781142076c9d46ccc5
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/jpeg
+	_pst_=success(1), lastModified=0
+	_rs_=28
+
+http://www.gictg.com/wp-content/uploads/2012/03/logo.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 08:55:23 PDT 2016
+Modified time: Fri Apr 01 08:55:23 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.28344786
+Signature: 3fcbdff23007b2901668bf37960be31c
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=48
+
+http://www.stockingdistributors.com/images/scrollable/logos/americaii.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:10:44 PDT 2016
+Modified time: Fri Apr 01 09:10:44 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.20866975
+Signature: ea53afedc79a5e1c86d7bdd681ab6f0f
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=235
+
+http://www.stockingdistributors.com/images/scrollable/logos/digitron.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:11:35 PDT 2016
+Modified time: Fri Apr 01 09:11:35 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.4173395
+Signature: 1a291a5b90797fbcfbca4f2503f59122
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=143
+
+http://www.stockingdistributors.com/images/scrollable/logos/electronicexp.png
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Sun May 01 09:10:46 PDT 2016
+Modified time: Fri Apr 01 09:10:46 PDT 2016
+Retries since fetch: 0
+Retry interval: 2592000 seconds (30 days)
+Score: 0.4173395
+Signature: 3a8aa2201f835d44dec86a69e0433c98
+Metadata: 
+ 	nutch.protocol.code=200
+	Content-Type=image/png
+	_pst_=success(1), lastModified=0
+	_rs_=277
+

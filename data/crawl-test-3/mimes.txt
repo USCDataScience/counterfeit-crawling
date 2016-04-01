@@ -1,0 +1,9 @@
+image/jpeg, 4
+text/html, 1669
+unknown, 304292
+image/png, 19
+text/asp, 2
+image/gif, 11
+text/x-php, 4
+application/pdf, 2
+application/msword, 1
