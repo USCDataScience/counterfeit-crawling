@@ -66,7 +66,7 @@
   
   <property>
     <name>http.content.limit</name>
-    <value>2097152</value> <!-- Set to 2MB -->
+    <value>-1</value><!-- No limit -->
     <description>The length limit for downloaded content using the http://
       protocol, in bytes. If this value is nonnegative (>=0), content longer
       than it will be truncated; otherwise, no truncation at all. Do not
