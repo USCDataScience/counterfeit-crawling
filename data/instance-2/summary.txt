@@ -1,0 +1,16 @@
+CrawlDb statistics start: crawl-data/crawldb
+Statistics for CrawlDb: crawl-data/crawldb
+TOTAL urls:    370643
+retry 0:       370629
+retry 1:       14
+min score:     0.0
+avg score:     3.0221326
+max score:     5642.762
+status 1 (db_unfetched):	357463
+status 2 (db_fetched):		12724
+status 3 (db_gone):		57
+status 4 (db_redir_temp):	12
+status 5 (db_redir_perm):	19
+status 6 (db_notmodified):	1
+status 7 (db_duplicate):	367
+CrawlDb statistics: done

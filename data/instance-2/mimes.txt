@@ -1,0 +1,14 @@
+application/rss+xml, 2
+text/html, 12412
+image/jpeg, 342
+application/gzip, 27
+unknown, 728163
+image/png, 148
+text/asp, 2
+image/gif, 141
+text/plain, 1
+text/aspdotnet, 1
+application/xhtml+xml, 2
+text/x-php, 24
+application/pdf, 20
+application/msword, 1

@@ -1,0 +1,792 @@
+http://1sourcecomponents.com/partinfo/&amp;quot;Samsung&amp;quot;+&amp;quot;Syncmaster%20&.htm
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 00:06:42 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.28228527
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://1sourcecomponents.com/partinfo/&amp;quot;Samsung&amp;quot;+&amp;quot;Syncmaster%20&.htm
+	_rs_=1529
+
+http://1sourcecomponents.com/partinfo/5%.htm
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 00:43:13 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.3788023
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=400
+	_pst_=gone(11), lastModified=0: http://1sourcecomponents.com/partinfo/5%.htm
+	_rs_=1419
+
+http://1sourcecomponents.com/partinfo/IHM-2/03%2010UH%2010%VISHAY.DAL.htm
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 01:49:22 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.2763537
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=400
+	_pst_=gone(11), lastModified=0: http://1sourcecomponents.com/partinfo/IHM-2/03%2010UH%2010%VISHAY.DAL.htm
+	_rs_=1658
+
+http://www.carlinsystems.com/ERAI%20Cetificate.pdf
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:36:40 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 1.883953
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/ERAI%20Cetificate.pdf
+	_rs_=1308
+
+http://www.carlinsystems.com/Img/WebWizard/Spacer.gif
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:36:12 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 1.8104571
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/Img/WebWizard/Spacer.gif
+	_rs_=1503
+
+http://www.carlinsystems.com/Templates/ISOcertnew.pdf
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:38:47 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.4224556
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/Templates/ISOcertnew.pdf
+	_rs_=1258
+
+http://www.carlinsystems.com/Templates/products.html
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:36:28 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.4224556
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/Templates/products.html
+	_rs_=1314
+
+http://www.carlinsystems.com/carllin-cares.html
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:40:48 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.8067241
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/carllin-cares.html
+	_rs_=1600
+
+http://www.carlinsystems.com/cert.pdf
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:37:59 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.21985812
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/cert.pdf
+	_rs_=1262
+
+http://www.carlinsystems.com/index.html/All%20Graphics/CSI_Graphics/Products.gif
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:35:53 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.22510307
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/index.html/All%20Graphics/CSI_Graphics/Products.gif
+	_rs_=5225
+
+http://www.carlinsystems.com/map_1.jpg
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:36:19 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.3194279
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/map_1.jpg
+	_rs_=2783
+
+http://www.carlinsystems.com/map_2.jpg
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:38:03 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.3194279
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/map_2.jpg
+	_rs_=1331
+
+http://www.carlinsystems.com/www.ny-chariots.org/index
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:36:00 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.27071226
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: http://www.carlinsystems.com/www.ny-chariots.org/index
+	_rs_=1498
+
+http://www.icdigitalelectronics.com/uploaded_files/document/HOTT_PARTS6tEw.pdf
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Mon May 16 23:33:54 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 94.00742
+Signature: null
+Metadata: 
+ 	_pst_=robots_denied(18), lastModified=0
+
+http://www.icdigitalelectronics.com/uploaded_files/thumb_cache/thumb_1600_327_slide1NKCi.jpg
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Mon May 16 23:14:06 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.2765202
+Signature: null
+Metadata: 
+ 	_pst_=robots_denied(18), lastModified=0
+
+http://www.icdigitalelectronics.com/uploaded_files/thumb_cache/thumb_212_160_noimg1.gif
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 01:11:52 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 0.834224
+Signature: null
+Metadata: 
+ 	_pst_=robots_denied(18), lastModified=0
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory329.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:40:22 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory329.php
+	_rs_=276
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory330.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:42:41 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory330.php
+	_rs_=223
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory331.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:47:48 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory331.php
+	_rs_=214
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory332.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:52:48 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory332.php
+	_rs_=221
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory333.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:39:47 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory333.php
+	_rs_=218
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory334.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:44:49 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory334.php
+	_rs_=215
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory335.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:50:00 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory335.php
+	_rs_=219
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory336.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:55:04 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory336.php
+	_rs_=213
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory337.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:42:03 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory337.php
+	_rs_=212
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory338.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:47:11 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory338.php
+	_rs_=224
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory339.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:52:08 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory339.php
+	_rs_=217
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory340.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:54:29 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory340.php
+	_rs_=216
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory341.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:41:26 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory341.php
+	_rs_=219
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory342.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:46:29 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory342.php
+	_rs_=228
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory343.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:51:33 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory343.php
+	_rs_=213
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory344.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:38:35 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory344.php
+	_rs_=237
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory345.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:43:39 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory345.php
+	_rs_=249
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory346.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:48:49 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory346.php
+	_rs_=212
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory347.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:53:55 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory347.php
+	_rs_=224
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory348.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:40:52 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory348.php
+	_rs_=216
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory349.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:45:50 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory349.php
+	_rs_=211
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory350.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:48:17 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory350.php
+	_rs_=225
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory351.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:53:14 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory351.php
+	_rs_=222
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory352.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:40:17 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory352.php
+	_rs_=241
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory353.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:45:15 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory353.php
+	_rs_=230
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory354.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:50:29 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory354.php
+	_rs_=222
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory355.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:55:30 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory355.php
+	_rs_=233
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory356.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:42:33 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory356.php
+	_rs_=230
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory357.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:47:43 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory357.php
+	_rs_=218
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory358.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:52:40 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory358.php
+	_rs_=214
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory359.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:39:39 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory359.php
+	_rs_=214
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory360.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:41:55 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory360.php
+	_rs_=221
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory361.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:46:57 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory361.php
+	_rs_=217
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory362.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:51:59 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory362.php
+	_rs_=247
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory363.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:39:04 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory363.php
+	_rs_=233
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory364.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:44:08 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory364.php
+	_rs_=222
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory365.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:49:22 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory365.php
+	_rs_=214
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory366.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:54:21 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory366.php
+	_rs_=215
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory367.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:41:21 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory367.php
+	_rs_=227
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory368.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:46:23 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory368.php
+	_rs_=229
+
+https://www.stockingdistributors.com/electronic-components/pages/stock-inventory369.php
+Version: 7
+Status: 3 (db_gone)
+Fetch time: Tue May 17 08:51:28 PDT 2016
+Modified time: Wed Dec 31 16:00:00 PST 1969
+Retries since fetch: 0
+Retry interval: 3888000 seconds (45 days)
+Score: 41.619144
+Signature: null
+Metadata: 
+ 	nutch.protocol.code=404
+	_pst_=notfound(14), lastModified=0: https://www.stockingdistributors.com/electronic-components/pages/stock-inventory369.php
+	_rs_=218
+
