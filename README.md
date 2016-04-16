@@ -68,3 +68,14 @@ large datasets.
 ------------------------------------------
 Incorporated plugin that uses cosine distance from a goldstandard to score how relevant a page 
 is to the desired content.
+
+
+8: D3 Visualization
+------------------------------------------
+Used Tika-Similarity to compute edit distances between extracted images, and D3 to 
+visualize data in clusters.
+
+
+9: Solr Indexing
+-------------------------------------------
+Indexed the crawled data on Apache Solr. 

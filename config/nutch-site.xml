@@ -297,8 +297,9 @@
   
   <property>
     <name>plugin.includes</name>
-    <value>protocol-(interactiveselenium|httpclient)|urlfilter-(regex|ignoreexempt)|parse-(html|tika)|index-(basic|anchor)|scoring-opic|scoring-similarity|urlnormalizer-(pass|regex|basic)</value>
-    <description> Plugins (includes interactiveselenium and scoring-similarity) </description>
+    <value>protocol-(selenium|httpclient)|urlfilter-(regex|ignoreexempt)|parse-(html|tika)|index-(basic|anchor)|scoring-opic|scoring-similarity|urlnormalizer-(pass|regex|basic)|indexer-solr</value>
+    <description> Plugins (includes interactiveselenium and scoring-similarity). Also
+added Solr indexing. </description>
   </property>
   
   <property>
