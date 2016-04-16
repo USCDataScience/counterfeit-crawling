@@ -72,10 +72,12 @@ is to the desired content.
 
 8: D3 Visualization
 ------------------------------------------
-Used Tika-Similarity to compute edit distances between extracted images, and D3 to 
-visualize data in clusters.
+Used Tika-Similarity to compute edit distances between extracted images based on metadata, 
+and D3 to visualize data in clusters. 
+
+Resource: https://github.com/chrismattmann/tika-similarity
 
 
 9: Solr Indexing
 -------------------------------------------
-Indexed the crawled data on Apache Solr. 
+Indexed the crawled data on Apache Solr to allow queries.

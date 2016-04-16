@@ -1,13 +1,13 @@
-The crawl-test folders contain statistics from test crawls of depth <= 3. The instances contain 
-deeper crawls.
+The crawl-test folders contain statistics from test crawls of depth <= 3. The instances 
+contain deeper crawls.
 
 crawl-test-1: Initial crawl with configuration for politeness, agent rotation, etc.
 
 crawl-test-2: Crawl with more advanced configurations, and including image suffixes.
 
-instance-1: Crawl with protocol-interactiveselenium and similarity scoring plugins. Did not split
-seed URLs into separate crawls, so crawl focused mostly on a couple hostnames and not 
-all the desired ones.
+instance-1: Crawl with protocol-interactiveselenium and similarity scoring plugins. Did not 
+split seed URLs into separate crawls, so crawl focused mostly on a couple hostnames and 
+not all the desired ones.
 
-instance-2: Crawl with protocol-interactiveselenium and similarity scoring plugins. Crawled in single 
-fetcher mode and merged crawldb's for each URL in seed.
+instance-2: Crawl with protocol-interactiveselenium and similarity scoring plugins. Crawled in 
+single fetcher mode and merged crawldb's for each URL in seed.
