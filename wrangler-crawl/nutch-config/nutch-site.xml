@@ -1,0 +1,461 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+  
+  <property>
+    <name>http.agent.name</name>
+    <value>Mozilla/5.0</value>
+    <description>HTTP 'User-Agent' request header. MUST NOT be empty - 
+      please set this to a single word uniquely related to your organization.
+      
+      NOTE: You should also check other related properties:
+      
+      http.robots.agents
+      http.agent.description
+      http.agent.url
+      http.agent.email
+      http.agent.version
+      
+      and set their values appropriately.
+      
+    </description>
+  </property>
+
+  <property>
+    <name>fetcher.server.delay</name>
+    <value>2.0</value>
+    <description>The number of seconds the fetcher will delay between 
+      successive requests to the same server. Note that this might get
+      overriden by a Crawl-Delay from a robots.txt and is used ONLY if 
+      fetcher.threads.per.queue is set to 1.
+    </description>
+  </property>
+  
+  <property>
+    <name>http.agent.rotate</name>
+    <value>true</value>
+    <description>
+      If true, instead of http.agent.name, alternating agent names are
+      chosen from a list provided via http.agent.rotate.file.
+    </description>
+  </property>
+  
+  <property>
+    <name>http.agent.rotate.file</name>
+    <value>agents.txt</value>
+    <description>
+      File containing alternative user agent names to be used instead of
+      http.agent.name on a rotating basis if http.agent.rotate is true.
+      Each line of the file should contain exactly one agent
+      specification including name, version, description, URL, etc.
+    </description>
+  </property>
+  
+  <property>
+    <name>http.redirect.max</name>
+    <value>5</value>
+    <description>The maximum number of redirects the fetcher will follow when
+      trying to fetch a page. If set to negative or 0, fetcher won't 
+      immediately follow redirected URLs, instead it will record them for 
+      later fetching.
+    </description>
+  </property>
+  
+  <property>
+      <name>http.timeout</name>
+      <value>1800000</value>
+      <description>The default network timeout, in milliseconds.</description>
+  </property>
+  
+  <property>
+    <name>http.content.limit</name>
+    <value>-1</value><!-- No limit -->
+    <description>The length limit for downloaded content using the http://
+      protocol, in bytes. If this value is nonnegative (>=0), content longer
+      than it will be truncated; otherwise, no truncation at all. Do not
+      confuse this setting with the file.content.limit setting.
+    </description>
+  </property>
+  
+  <property>
+    <name>http.max.delays</name>
+    <value>10</value> <!-- Changed from 25 -->
+    <description>The number of times a thread will delay when trying to
+      fetch a page.  Each time it finds that a host is busy, it will wait
+      fetcher.server.delay.  After http.max.delays attepts, it will give
+      up on the page for now.</description>
+  </property>
+  
+  <property>
+    <name>http.verbose</name>
+    <value>true</value>
+    <description>If true, HTTP will log more verbosely.</description>
+  </property>
+  
+  <property>
+    <name>db.preserve.backup</name>
+    <value>true</value>
+    <description>If true, updatedb will keep a backup of the previous CrawlDB
+      version in the old directory. In case of disaster, one can rename old to 
+      current and restore the CrawlDB to its previous state.
+    </description>
+  </property>
+  
+  <property>
+    <name>db.fetch.schedule.class</name>
+    <value>org.apache.nutch.crawl.AdaptiveFetchSchedule</value>
+    <description>The implementation of fetch schedule. DefaultFetchSchedule simply
+      adds the original fetchInterval to the last fetch time, regardless of
+      page changes, whereas AdaptiveFetchSchedule (see below) tries to adapt
+      to the rate at which a given page is changed. 
+    </description>
+  </property>
+  
+  <property>
+    <name>db.url.normalizers</name>
+    <value>true</value>
+    <description>Normalize urls when updating crawldb</description>
+  </property>
+  
+  <property>
+    <name>db.url.filters</name>
+    <value>true</value>
+    <description>Filter urls when updating crawldb</description>
+  </property>
+  
+  <property>
+    <name>db.ignore.internal.links</name>
+    <value>false</value>
+    <description>If true, when adding new links to a page, links from
+      the same host are ignored.  This is an effective way to limit the
+      size of the link database, keeping only the highest quality
+      links.
+    </description>
+  </property>
+  
+  <property>
+    <name>db.injector.overwrite</name>
+    <value>true</value>
+    <description>Whether existing records in the CrawlDB will be overwritten
+      by injected records.
+    </description>
+  </property>
+  
+  <property>
+    <name>db.max.outlinks.per.page</name>
+    <value>-1</value>
+    <description>The maximum number of outlinks that we'll process for a page.
+      If this value is nonnegative (>=0), at most db.max.outlinks.per.page outlinks
+      will be processed for a page; otherwise, all outlinks will be processed.
+    </description>
+  </property>
+  
+  <property>
+    <name>db.max.anchor.length</name>
+    <value>500</value>
+    <description>The maximum number of characters permitted in an anchor.
+    </description>
+  </property>
+  
+  <property>
+    <name>db.ignore.external.links</name>
+    <value>false</value> <!-- Changed from false -->
+    <description>If true, outlinks leading from a page to external hosts or domain
+      will be ignored. This is an effective way to limit the crawl to include
+      only initially injected hosts, without creating complex URLFilters.
+      See 'db.ignore.external.links.mode'.
+    </description>
+  </property>
+
+  <property>
+    <name>generate.update.crawldb</name>
+    <value>true</value>
+    <description>For highly-concurrent environments, where several
+      generate/fetch/update cycles may overlap, setting this to true ensures
+      that generate will create different fetchlists even without intervening
+      updatedb-s, at the cost of running an additional job to update CrawlDB.
+      If false, running generate twice without intervening
+      updatedb will generate identical fetchlists.</description>
+  </property>
+
+  <property>
+    <name>db.fetch.interval.default</name>
+    <value>2592000</value> <!-- Changed from 2592000 -->
+    <description>The default number of seconds between re-fetches of a page (30 days).
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.server.min.delay</name>
+    <value>0.2</value>
+    <description>The minimum number of seconds the fetcher will delay between 
+      successive requests to the same server. This value is applicable ONLY
+      if fetcher.threads.per.queue is greater than 1 (i.e. the host blocking
+      is turned off).
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.max.crawl.delay</name>
+    <value>10</value><!-- 0 -->
+    <description>
+      If the Crawl-Delay in robots.txt is set to greater than this value (in
+      seconds) then the fetcher will skip this page, generating an error report.
+      If set to -1 the fetcher will never skip such pages and will wait the
+      amount of time retrieved from robots.txt Crawl-Delay, however long that
+      might be.
+    </description>
+  </property> 
+  
+  <property>
+    <name>fetcher.threads.fetch</name>
+    <value>20</value>
+    <description>The number of FetcherThreads the fetcher should use.
+      This is also determines the maximum number of requests that are
+      made at once (each FetcherThread handles one connection). The total
+      number of threads running in distributed mode will be the number of
+      fetcher threads * number of nodes as fetcher has one map task per node.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.verbose</name>
+    <value>true</value>
+    <description>If true, fetcher will log more verbosely.</description>
+  </property>
+  
+  <property>
+    <name>fetcher.parse</name>
+    <value>true</value> <!-- changed from false -->
+    <description>If true, fetcher will parse content. Default is false, which means
+      that a separate parsing step is required after fetching is finished.</description>
+  </property>
+  
+  <property>
+    <name>fetcher.store.content</name>
+    <value>true</value>
+    <description>If true, fetcher will store content.</description>
+  </property>
+  
+  <property>
+    <name>fetcher.timelimit.mins</name>
+    <value>80</value>
+    <description>This is the number of minutes allocated to the fetching.
+      Once this value is reached, any remaining entry from the input URL list is skipped 
+      and all active queues are emptied. The default value of -1 deactivates the time limit.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.max.exceptions.per.queue</name>
+    <value>-1</value>
+    <description>The maximum number of protocol-level exceptions (e.g. timeouts) per
+      host (or IP) queue. Once this value is reached, any remaining entries from this
+      queue are purged, effectively stopping the fetching from this host/IP. The default
+      value of -1 deactivates this limit.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.throughput.threshold.pages</name>
+    <value>-1</value> 
+    <description>The threshold of minimum pages per second. If the fetcher downloads less
+      pages per second than the configured threshold, the fetcher stops, preventing slow queue's
+      from stalling the throughput. This threshold must be an integer. This can be useful when
+      fetcher.timelimit.mins is hard to determine. The default value of -1 disables this check.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.follow.outlinks.ignore.external</name>
+    <value>true</value> <!-- Changed from false --> 
+    <description>Whether to ignore or follow external links. Set db.ignore.external.links to false and 
+      this to true to store outlinks in the output but not follow them. If db.ignore.external.links 
+      is true this directive is ignored.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.threads.per.queue</name>
+    <value>50</value>
+    <description>This number is the maximum number of threads that
+      should be allowed to access a queue at one time. Setting it to 
+      a value > 1 will cause the Crawl-Delay value from robots.txt to
+      be ignored and the value of fetcher.server.min.delay to be used
+      as a delay between successive requests to the same server instead 
+      of fetcher.server.delay.
+    </description>
+  </property>
+  
+  <property>
+    <name>fetcher.queue.depth.multiplier</name>
+    <value>1</value> <!-- Changed from 50 -->
+    <description>(EXPERT)The fetcher buffers the incoming URLs into queues based on the [host|domain|IP]
+      (see param fetcher.queue.mode). The depth of the queue is the number of threads times the value of this parameter.
+      A large value requires more memory but can improve the performance of the fetch when the order of the URLS in the fetch list
+      is not optimal.
+    </description>
+  </property>
+
+  <property>
+    <name>db.max.outlinks.per.page</name>
+    <value>-1</value>
+    <description>The maximum number of outlinks that we'll process for a page.
+      If this value is nonnegative (>=0), at most db.max.outlinks.per.page outlinks
+      will be processed for a page; otherwise, all outlinks will be processed.
+    </description>
+  </property>
+  
+  <property>
+    <name>parser.skip.truncated</name>
+    <value>false</value>
+    <description>Boolean value for whether we should skip parsing for truncated documents. By default this 
+      property is activated due to extremely high levels of CPU which parsing can sometimes take.  
+    </description>
+  </property>
+
+  <property>
+    <name>http.robot.rules.whitelist</name>
+    <value>icdigitalelectronics.com, vctechnologyinc.com, class-ic.com, icpartsdepot.com, 1sourcemilaero.com</value>
+    <description> Ignore robots.txt for seeded sites. </description>
+  </property>
+  
+  <property>
+    <name>plugin.includes</name>
+    <value>protocol-selenium|protocol-(http|httpclient)|urlfilter-(regex|ignoreexempt)|parse-(html|tika)|language-identifier|index-(basic|anchor)|indexer-solr|urlnormalizer-(pass|regex|basic)|parsefilter-naivebayes</value>
+    <description>Regular expression naming plugin directory names to
+      include.  Any plugin not matching this expression is excluded.
+      In any case you need at least include the nutch-extensionpoints plugin. By
+      default Nutch includes crawling just HTML and plain text via HTTP,
+      and basic indexing and search plugins. In order to use HTTPS please enable 
+      protocol-httpclient, but be aware of possible intermittent problems with the 
+      underlying commons-httpclient library. Set parsefilter-naivebayes for classification based focused crawler.
+    </description>
+  </property>
+
+  <property>
+    <name>interactiveselenium.handlers</name>
+    <value>CustomHandler</value>
+    <description> AJAX handlers </description>
+  </property>
+
+  <property>
+    <name>selenium.hub.port</name>
+    <value>4444</value>
+    <description> Selenium Hub Location connection port</description>
+  </property>
+  
+  <property>
+    <name>selenium.hub.host</name>
+    <value>localhost</value>
+    <description> Selenium Hub Location connection host</description>
+  </property>
+  
+  <property>
+    <name>selenium.hub.protocol</name>
+    <value>http</value>
+    <description> Selenium Hub Location connection protocol</description>
+  </property>
+  
+  <property>
+    <name>selenium.grid.driver</name>
+    <value>firefox</value>
+    <description> A String value representing the flavour of Selenium 
+      WebDriver() used on the selenium grid. Currently the following options
+      exist - 'firefox' </description>
+  </property>
+  
+  <property>
+    <name>libselenium.page.load.delay</name>
+    <value>120</value>
+    <description>
+      The delay in seconds to use when loading a page with lib-selenium. This
+      setting is used by protocol-selenium and protocol-interactiveselenium
+      since they depending on lib-selenium for fetching.
+    </description>
+  </property>
+  
+  <property>
+    <name>cosine.goldstandard.file</name>
+    <value>goldstandard.txt</value>
+  </property>
+  
+  <property>
+    <name>scoring.similarity.stopword.file</name>
+    <value>stopwords.txt</value>
+  </property>
+  
+  <property>
+    <name>parsefilter.naivebayes.trainfile</name>
+    <value>naivebayes-train.txt</value>
+    <description>Set the name of the file to be used for Naive Bayes training. The format will be: 
+      Each line contains two tab separated parts
+      There are two columns/parts:
+      1. "1" or "0", "1" for relevant and "0" for irrelevant documents.
+      2. Text (text that will be used for training)
+  
+      Each row will be considered a new "document" for the classifier.
+      CAUTION: Set the parser.timeout to -1 or a bigger value than 30, when using this classifier.
+    </description>
+  </property>
+  
+  <property>
+    <name>parsefilter.naivebayes.wordlist</name>
+    <value>naivebayes-wordlist.txt</value>
+    <description>Put the name of the file you want to be used as a list of 
+      important words to be matched in the url for the model filter. The format should be one word per line.
+    </description>
+  </property>
+  
+  <property>
+    <name>parser.timeout</name>
+    <value>-1</value>
+    <description>Timeout in seconds for the parsing of a document, otherwise treats it as an exception and 
+      moves on the the following documents. This parameter is applied to any Parser implementation. 
+      Set to -1 to deactivate, bearing in mind that this could cause
+      the parsing to crash because of a very long or corrupted document.
+    </description>
+  </property>
+  
+  
+  <property>
+    <name>http.accept.language</name>
+    <value>en-us,en-gb,en,zh;q=0.7,*;q=0.3</value>
+    <description>Value of the "Accept-Language" request header field.
+      This allows selecting non-English language as default one to retrieve.
+      It is a useful setting for search engines build for certain national group.
+    </description>
+  </property>
+
+  <property>
+    <name>lang.analyze.max.length</name>
+    <value>0</value>
+    <description> The maximum number of bytes used to identify
+      the language (0 means full content analysis).
+      The larger is this value, the better is the analysis, but the
+      slowest it is.
+    </description>
+  </property>
+
+  <property>
+    <name>db.ignore.external.exemptions.file</name>
+    <value>db-ignore-external-exemptions.txt</value>
+    <description>
+      This file contains exemption rules used by 'urlfiter-ignoreexempt' plugin
+    </description>
+  </property>
+  
+  
+  <property>
+    <name>db.parsemeta.to.crawldb</name>
+    <value>lang</value>
+    <description>Comma-separated list of parse metadata keys to transfer to the crawldb (NUTCH-779).
+      Assuming for instance that the languageidentifier plugin is enabled, setting the value to 'lang' 
+      will copy both the key 'lang' and its value to the corresponding entry in the crawldb.
+    </description>
+  </property>
+
+</configuration>

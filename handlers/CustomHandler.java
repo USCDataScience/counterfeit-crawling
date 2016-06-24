@@ -30,7 +30,7 @@ public class CustomHandler implements InteractiveSeleniumHandler {
     public void waitforJavascript(WebDriver driver) {
 	WebDriverWait wait = new WebDriverWait(driver, 30);
 	
-	/** wati for jQuery to load */
+	/** wait for jQuery to load */
 	ExpectedCondition<Boolean> jQueryLoad = new ExpectedCondition<Boolean>() {
 	    @Override
 	    public Boolean apply(WebDriver driver) {

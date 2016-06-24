@@ -1,0 +1,17 @@
+application/rss+xml, 3
+text/x-matlab, 2
+text/html, 43058
+image/jpeg, 831
+image/svg+xml, 1
+unknown, 7812871
+image/png, 268
+application/xml, 4
+image/vnd.microsoft.icon, 16
+text/css, 3
+image/gif, 128
+application/javascript, 8
+application/octet-stream, 19
+application/zip, 1
+text/x-php, 7
+application/pdf, 8
+application/xhtml+xml, 1290

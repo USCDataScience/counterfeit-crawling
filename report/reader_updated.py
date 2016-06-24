@@ -96,7 +96,32 @@ def getMimes(root_path):
     print "Total MIME Types: %d" %(len(mimes) - 1)
     return mimes
         
+# Gets number of pages from each host 
+def getHosts(root_path):
+    from urlparse import urlparse
+    hosts = {}
     
+    for path in getSegments(root_path):
+        values = {"path" : path}
+        
+        i = 0
+        while True:
+            data = nutch_server.call('post', '/reader/sequence/read?start=%s&end=%s' 
+                                     % (i, i + 1000), data=values, headers=JsonSendHeader)
+            if not data:
+                break
+            # print data
+            for site in data:
+                for meta in site:
+                    url = urlparse(meta)
+                    if (url.scheme != ''):
+                        hosts[url.netloc] = hosts.get(url.netloc, 0) + 1
+                        break
+            i = i + 1000
+    print "Total Hosts: %d" % (len(hosts))
+    return hosts
+                
+                
 # Gets a generator for the failed urls    
 def getFailed(path):    
     values = { 'path' : path }
@@ -145,6 +170,10 @@ def generate_report(args):
         with open(args['report'], 'w') as mimes:
             for mime, count in getMimes(args['db_path']).iteritems():
                 mimes.write("%s, %d\n" %(mime, count))
+    elif cmd == 'hosts':
+        with open(args['report'], 'w') as hosts:
+            for host, count in getHosts(args['db_path']).iteritems():
+                hosts.write('%s, %d\n' %(host.decode('utf-8'), count))
     else:
         print "Invalid Command : %s" % cmd
 
@@ -170,6 +199,11 @@ if __name__ == '__main__':
     mime_parser = subparsers.add_parser("mimes", help="scans for different mimes")
     mime_parser.add_argument("-p", "--db-path", help="path to crawldb", required=True)
     mime_parser.add_argument("-r", "--report", help="path to report", required=True)
+
+
+    host_parser = subparsers.add_parser("hosts", help="scans for different hosts")
+    host_parser.add_argument("-p", "--db-path", help="path to crawldb", required=True)
+    host_parser.add_argument("-r", "--report", help="path to report", required=True)
 
     args = vars(parser.parse_args(sys.argv[1:]))
     generate_report(args)
