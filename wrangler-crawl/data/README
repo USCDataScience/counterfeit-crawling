@@ -1,10 +1,7 @@
-I am running initial local crawls with different configurations and plugins, to test which leads to the 
-most relevant image and ad data. All crawls were depth 3. 
+I am running initial local crawls with different configurations and plugins, to test which leads to the most relevant image and ad data. All crawls were depth 3. 
 
-crawl-1: Crawl with default configurations on Group #1 seed URLs. The crawlers were configured to stay in
-the same hostnames as from the seed list. 
+crawl-1: Crawl with default configurations on Group #1 seed URLs. The crawlers were configured to stay in the same hostnames as from the seed list. 
 
 crawl-2: Crawl on Group #1 seed URLs. The crawlers were allowed to follow outlinks. 
 
-crawl-naivebayes: Crawl on Group #1, with external links allowed, and the naivebayes pluging turned on
-and trained on keyword set. 
+crawl-naivebayes: Crawl on Group #1, with external links allowed, and the naivebayes pluging turned on and trained on keyword set. 
