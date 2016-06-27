@@ -1,0 +1,15 @@
+text/x-matlab, 2
+image/jpeg, 489
+text/html, 24749
+unknown, 5648251
+image/png, 31
+application/xml, 1
+image/vnd.microsoft.icon, 2
+text/x-php, 9398
+text/asp, 2
+image/gif, 170
+application/javascript, 1
+application/octet-stream, 1
+text/css, 1
+application/pdf, 3
+application/xhtml+xml, 813
