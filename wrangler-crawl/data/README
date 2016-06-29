@@ -4,6 +4,10 @@ crawl-1: Crawl with default configurations on Group #1 seed URLs. The crawlers w
 
 crawl-2: Crawl on Group #1 seed URLs. The crawlers were allowed to follow outlinks. 
 
-crawl-naivebayes-1: Crawl on Group #1, restricted to hosts, other than image sites, and the naivebayes pluging turned on and trained on keyword set. 
+crawl-naivebayes-1: Crawl on Group #1, restricted to hosts, other than image sites, and the naivebayes plugin turned on and trained on keyword set. 
 
 crawl-naivebayes-2: Crawl on Group #1, with external links allowed, and the naivebayes pluging turned on and trained on keyword set. 
+
+crawl-cosine-1: Crawl on Group #1, restricted to hosts and all images, and the scoring-similarity plugin trained on keyword set.
+
+crawl-cosine-1: Crawl on Group #1, with external links allowed, and the scoring-similarity plugin trained on keyword set.

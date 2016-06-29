@@ -66,7 +66,7 @@ public class ScrollHandler implements InteractiveSeleniumHandler {
 	int count = 0;
 	while (true) {
 	    ((JavascriptExecutor) driver).executeScript("window.scrollTo(0,document.body.scrollHeight)");
-	    WaitForJavascript(driver);
+	    waitforJavascript(driver);
 	    if (currentPos == (long) ((JavascriptExecutor) driver).executeScript("return window.scrollY;")) {
 		count++;
 		if (count > 10)
@@ -74,6 +74,10 @@ public class ScrollHandler implements InteractiveSeleniumHandler {
 	    } else {
 		currentPos = (Long) ((JavascriptExecutor) driver).executeScript("return window.scrollY;");
 		count = 0;
+	    }
+	    // In case the page gets too large
+	    if (currentPos >= 10000) {
+		break;
 	    }
 	}
 	String content = driver.findElement(By.tagName("body")).getAttribute("innerHTML");

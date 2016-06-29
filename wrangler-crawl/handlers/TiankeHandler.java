@@ -29,7 +29,7 @@ public class TiankeHandler implements InteractiveSeleniumHandler {
 	.getLogger(TiankeHandler.class);
     
     @Override
-    public String processDriver(Webdriver driver) {
+    public String processDriver(WebDriver driver) {
 	StringBuffer buffer = new StringBuffer();
 
 	// Extract content - getText doesn't return any links
@@ -42,14 +42,14 @@ public class TiankeHandler implements InteractiveSeleniumHandler {
 	    WebElement menu = driver.findElement(By.xpath("//select[@name='redirect']"));
 	    List<WebElement> pages = menu.findElements(By.xpath(".//option"));
 	    
-	    for (page : pages) {
+	    for (WebElement page : pages) {
 		String pageNumber = page.getAttribute("value");
 		
 		String query = "?CompanyID=51663&CategoryID=&page=" + pageNumber;
 		try {
 		    driver.get(prefix + query);
 		}
-		catch (Exception &e) {
+		catch (Exception e) {
 		    LOG.info("Error occured navigating: {}", driver.getCurrentUrl());
 		    LOG.error(e.getMessage(), e);
 		}

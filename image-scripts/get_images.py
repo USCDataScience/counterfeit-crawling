@@ -87,7 +87,7 @@ def main(argv=sys.argv):
             for path in getSegments(args['db_path']):
                 for site in getImageURLS(path):
                     for meta in site:
-                        images.write("%s\n" %(meta))
+                        images.write("%s\n" %(meta.decode('utf-8')))
     elif args['cmd'] == 'get':
         for path in getSegments(args['db_path']):
             downloadImages(path, args['num'])

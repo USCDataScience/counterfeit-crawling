@@ -30,7 +30,7 @@ public class AlibabaHandler implements InteractiveSeleniumHandler {
 	.getLogger(AlibabaHandler.class);
     
     @Override
-    public String processDriver(WebDriver driver) {
+    public String processDriver(final WebDriver driver) {
 	StringBuffer buffer = new StringBuffer();
 
 	// Extract content - getText doesn't return any links
@@ -38,13 +38,13 @@ public class AlibabaHandler implements InteractiveSeleniumHandler {
 	buffer.append(content).append("\n");
 	
 	if (driver.getCurrentUrl().startsWith("http://trends.alibaba.com/markets/Integrated-Circuits_400103.html") ||
-	    driver.getCurrentURL().equalsIgnoreCase("http://www.alibaba.com/Integrated-Circuits_pid400103")) {
+	    driver.getCurrentUrl().equalsIgnoreCase("http://www.alibaba.com/Integrated-Circuits_pid400103")) {
 	    
 	    WebElement next= driver.findElement(By.xpath("//div[@class='ui2-pagination-pages']//a[@class='next']"));
 	    
 	    String link = next.getAttribute("href");
 	    
-	    Webdriver pagination = new FireFoxDriver();
+	    WebDriver pagination = new FirefoxDriver();
 	    pagination.get(link);
 	    while (true) {
 		try {

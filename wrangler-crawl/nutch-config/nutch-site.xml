@@ -7,7 +7,7 @@
   
   <property>
     <name>http.agent.name</name>
-    <value>Mozilla/5.0</value>
+    <value>Googlebot/2.1</value>
     <description>HTTP 'User-Agent' request header. MUST NOT be empty - 
       please set this to a single word uniquely related to your organization.
       
@@ -34,14 +34,14 @@
     </description>
   </property>
   
-  <property>
+  <!--property>
     <name>http.agent.rotate</name>
     <value>true</value>
     <description>
       If true, instead of http.agent.name, alternating agent names are
       chosen from a list provided via http.agent.rotate.file.
     </description>
-  </property>
+  </property-->
   
   <property>
     <name>http.agent.rotate.file</name>
@@ -82,7 +82,7 @@
   
   <property>
     <name>http.max.delays</name>
-    <value>10</value> <!-- Changed from 25 -->
+    <value>25</value> <!-- Changed from 25 -->
     <description>The number of times a thread will delay when trying to
       fetch a page.  Each time it finds that a host is busy, it will wait
       fetcher.server.delay.  After http.max.delays attepts, it will give
@@ -93,6 +93,18 @@
     <name>http.verbose</name>
     <value>true</value>
     <description>If true, HTTP will log more verbosely.</description>
+  </property>
+  
+  <property>
+    <name>fetcher.max.crawl.delay</name>
+    <value>-1</value>
+    <description>
+      If the Crawl-Delay in robots.txt is set to greater than this value (in
+      seconds) then the fetcher will skip this page, generating an error report.
+      If set to -1 the fetcher will never skip such pages and will wait the
+      amount of time retrieved from robots.txt Crawl-Delay, however long that
+      might be.
+    </description>
   </property>
   
   <property>
@@ -319,13 +331,13 @@
 
   <property>
     <name>http.robot.rules.whitelist</name>
-    <value>icdigitalelectronics.com, vctechnologyinc.com, class-ic.com, icpartsdepot.com, 1sourcemilaero.com</value>
+    <value>icdigitalelectronics.com, vctechnologyinc.com, class-ic.com, icpartsdepot.com, 1sourcemilaero.com, tianke.hkinventory.com, vctechnologyinc.com, stealthcomponents.blogspot.com, alibaba.com</value>
     <description> Ignore robots.txt for seeded sites. </description>
   </property>
   
   <property>
     <name>plugin.includes</name>
-    <value>protocol-selenium|protocol-(http|httpclient)|urlfilter-(regex|ignoreexempt)|parse-(html|tika)|language-identifier|index-(basic|anchor)|indexer-solr|urlnormalizer-(pass|regex|basic)|parsefilter-naivebayes</value>
+    <value>protocol-(http|httpclient)|urlfilter-(regex|ignoreexempt)|parse-(html|tika)|language-identifier|index-(basic|anchor)|indexer-solr|urlnormalizer-(pass|regex|basic)|scoring-similarity</value>
     <description>Regular expression naming plugin directory names to
       include.  Any plugin not matching this expression is excluded.
       In any case you need at least include the nutch-extensionpoints plugin. By
@@ -338,7 +350,7 @@
 
   <property>
     <name>interactiveselenium.handlers</name>
-    <value>CustomHandler</value>
+    <value>AlibabaHandler, AltitekHandler, ScrollHandler, TiankeHandler</value>
     <description> AJAX handlers </description>
   </property>
 
@@ -423,7 +435,7 @@
   
   <property>
     <name>http.accept.language</name>
-    <value>en-us,en-gb,en,zh;q=0.7,*;q=0.3</value>
+    <value>en-us,en-gb,en,zh,lt;q=0.7,*;q=0.3</value>
     <description>Value of the "Accept-Language" request header field.
       This allows selecting non-English language as default one to retrieve.
       It is a useful setting for search engines build for certain national group.

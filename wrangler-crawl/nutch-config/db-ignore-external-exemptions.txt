@@ -29,3 +29,4 @@
 
 # Exempt urls ending with image extensions
 +(?i)\.(jpg|png|svg|gif|jpeg|bmp|pdf|xls|doc|xlsx|docx|txt|ppt|mp4|avi|mp3|wav|flv|vob|wmv|mpeg)$
++http://www.freedomics.com(.)*

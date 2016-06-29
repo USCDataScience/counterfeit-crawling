@@ -52,11 +52,11 @@ public class AltitekHandler implements InteractiveSeleniumHandler {
 	Set<String> links = getMfgsFromMenu(driver);
 	if (driver.getCurrentUrl().equalsIgnoreCase("http://www.altitek.com/")) {
 	    try {
-		for (link : links) {
+		for (String link : links) {
 		    driver.get(link);
 		}
 	    }
-	    catch (Exception &e) {
+	    catch (Exception e) {
 		LOG.info("Error occured navigating: {}", driver.getCurrentUrl());
 		LOG.error(e.getMessage(), e);
 	    }
