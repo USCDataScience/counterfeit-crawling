@@ -1,0 +1,3 @@
+Tested the PhantomJSDriver to see if it works better than the default Selenium FirefoxDriver or HtmlUnitDriver at extracting links from and interacting with heavy Javascript/jQuery sites.
+
+The PhantomJSDriver extracted links from sites that both the FirefoxDriver and HtmlUnitDriver got 0 links from.
