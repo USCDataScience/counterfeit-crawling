@@ -7,7 +7,7 @@
   
   <property>
     <name>http.agent.name</name>
-    <value>Googlebot/2.1</value>
+    <value>Mozilla/5.0</value>
     <description>HTTP 'User-Agent' request header. MUST NOT be empty - 
       please set this to a single word uniquely related to your organization.
       
@@ -33,15 +33,25 @@
       fetcher.threads.per.queue is set to 1.
     </description>
   </property>
-  
-  <!--property>
+
+  <property>
+    <name>store.ip.address</name>
+    <value>true</value>
+    <description>Enables us to capture the specific IP address 
+      (InetSocketAddress) of the host which we connect to via 
+      the given protocol. Currently supported is protocol-ftp and
+      http.
+    </description>
+  </property>
+
+  <property>
     <name>http.agent.rotate</name>
     <value>true</value>
     <description>
       If true, instead of http.agent.name, alternating agent names are
       chosen from a list provided via http.agent.rotate.file.
     </description>
-  </property-->
+  </property>
   
   <property>
     <name>http.agent.rotate.file</name>
@@ -66,7 +76,7 @@
   
   <property>
       <name>http.timeout</name>
-      <value>1800000</value>
+      <value>60000</value>
       <description>The default network timeout, in milliseconds.</description>
   </property>
   
@@ -97,7 +107,7 @@
   
   <property>
     <name>fetcher.max.crawl.delay</name>
-    <value>-1</value>
+    <value>6</value>
     <description>
       If the Crawl-Delay in robots.txt is set to greater than this value (in
       seconds) then the fetcher will skip this page, generating an error report.
@@ -167,14 +177,14 @@
   
   <property>
     <name>db.max.anchor.length</name>
-    <value>500</value>
+    <value>2000</value>
     <description>The maximum number of characters permitted in an anchor.
     </description>
   </property>
   
   <property>
     <name>db.ignore.external.links</name>
-    <value>false</value> <!-- Changed from false -->
+    <value>true</value> <!-- Changed from false -->
     <description>If true, outlinks leading from a page to external hosts or domain
       will be ignored. This is an effective way to limit the crawl to include
       only initially injected hosts, without creating complex URLFilters.
@@ -202,25 +212,13 @@
   
   <property>
     <name>fetcher.server.min.delay</name>
-    <value>0.2</value>
+    <value>1</value>
     <description>The minimum number of seconds the fetcher will delay between 
       successive requests to the same server. This value is applicable ONLY
       if fetcher.threads.per.queue is greater than 1 (i.e. the host blocking
       is turned off).
     </description>
   </property>
-  
-  <property>
-    <name>fetcher.max.crawl.delay</name>
-    <value>10</value><!-- 0 -->
-    <description>
-      If the Crawl-Delay in robots.txt is set to greater than this value (in
-      seconds) then the fetcher will skip this page, generating an error report.
-      If set to -1 the fetcher will never skip such pages and will wait the
-      amount of time retrieved from robots.txt Crawl-Delay, however long that
-      might be.
-    </description>
-  </property> 
   
   <property>
     <name>fetcher.threads.fetch</name>
@@ -337,7 +335,7 @@
   
   <property>
     <name>plugin.includes</name>
-    <value>protocol-(http|httpclient)|urlfilter-(regex|ignoreexempt)|parse-(html|tika)|language-identifier|index-(basic|anchor)|indexer-solr|urlnormalizer-(pass|regex|basic)|scoring-similarity</value>
+    <value>protocol-(http|httpclient)|urlfilter-(regex|ignoreexempt)|parse-(html|tika)|language-identifier|index-(basic|anchor)|indexer-solr|urlnormalizer-(pass|regex|basic)</value>
     <description>Regular expression naming plugin directory names to
       include.  Any plugin not matching this expression is excluded.
       In any case you need at least include the nutch-extensionpoints plugin. By

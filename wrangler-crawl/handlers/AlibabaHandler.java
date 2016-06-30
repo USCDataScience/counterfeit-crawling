@@ -37,7 +37,7 @@ public class AlibabaHandler implements InteractiveSeleniumHandler {
 	String content = driver.findElement(By.tagName("body")).getText();
 	buffer.append(content).append("\n");
 	
-	if (driver.getCurrentUrl().startsWith("http://trends.alibaba.com/markets/Integrated-Circuits_400103.html") ||
+	if (driver.getCurrentUrl().startsWith("http://rfq.alibaba.com/rfq/search_list.htm") ||
 	    driver.getCurrentUrl().equalsIgnoreCase("http://www.alibaba.com/Integrated-Circuits_pid400103")) {
 	    
 	    WebElement next= driver.findElement(By.xpath("//div[@class='ui2-pagination-pages']//a[@class='next']"));
