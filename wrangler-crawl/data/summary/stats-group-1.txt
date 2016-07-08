@@ -1,0 +1,181 @@
+Group 1:
+
+Default (No external links/ Iteration 15):
+
+FILTERED Stats:
+[
+    {"mimeType":"application/xml","count":"77"}
+    {"mimeType":"image/png","count":"1090"}
+    {"mimeType":"application/octet-stream","count":"4069"}
+    {"mimeType":"image/jpeg","count":"6627"}
+    {"mimeType":"application/pdf","count":"2076"}
+    {"mimeType":"application/atom+xml","count":"11"}
+    {"mimeType":"application/x-tika-ooxml","count":"1"}
+    {"mimeType":"image/gif","count":"872"}
+    {"mimeType":"application/rss+xml","count":"116"}
+    {"mimeType":"image/svg+xml","count":"2"}
+    {"mimeType":"application/x-shockwave-flash","count":"4"}
+    {"mimeType":"application/xhtml+xml","count":"196237"}
+    {"mimeType":"audio/mpeg","count":"1"}
+    {"mimeType":"application/x-tika-msoffice","count":"1"}
+    {"mimeType":"text/html","count":"198562"}
+    {"mimeType":"text/x-matlab","count":"6"}
+    {"mimeType":"application/zip","count":"162"}
+    {"mimeType":"application/vnd.ms-excel","count":"2"}
+    {"mimeType":"image/vnd.microsoft.icon","count":"10"}
+    {"mimeType":"text/plain","count":"167861"}
+]
+Total filtered count: 577787
+
+Summary:
+application/* - 202757
+image/* - 8601
+text/* - 577787
+
+
+External Links (Iteration 10):
+
+FILTERED Stats:
+[
+    {"mimeType":"application/xml","count":"360"}
+    {"mimeType":"application/x-sh","count":"1"}
+    {"mimeType":"image/vnd.adobe.photoshop","count":"1"}
+    {"mimeType":"application/x-msdownload","count":"1"}
+    {"mimeType":"image/jpeg","count":"15787"}
+    {"mimeType":"application/vnd.ms-htmlhelp","count":"1"}
+    {"mimeType":"application/atom+xml","count":"37"}
+    {"mimeType":"image/gif","count":"2232"}
+    {"mimeType":"image/x-ms-bmp","count":"14"}
+    {"mimeType":"image/svg+xml","count":"34"}
+    {"mimeType":"text/x-php","count":"1"}
+    {"mimeType":"application/x-shockwave-flash","count":"7"}
+    {"mimeType":"application/xhtml+xml","count":"104732"}
+    {"mimeType":"application/x-rar-compressed","count":"5"}
+    {"mimeType":"application/x-tika-msoffice","count":"58"}
+    {"mimeType":"text/x-matlab","count":"67"}
+    {"mimeType":"application/vnd.ms-excel","count":"13"}
+    {"mimeType":"text/x-jsp","count":"1"}
+    {"mimeType":"text/plain","count":"2998"}
+    {"mimeType":"image/png","count":"4925"}
+    {"mimeType":"application/octet-stream","count":"19648"}
+    {"mimeType":"application/pdf","count":"1836"}
+    {"mimeType":"application/msword","count":"3"}
+    {"mimeType":"application/x-tika-ooxml","count":"19"}
+    {"mimeType":"application/rdf+xml","count":"1"}
+    {"mimeType":"application/rss+xml","count":"434"}
+    {"mimeType":"application/x-elc","count":"2"}
+    {"mimeType":"audio/mpeg","count":"10"}
+    {"mimeType":"application/rtf","count":"2"}
+    {"mimeType":"video/x-ms-wmv","count":"1"}
+    {"mimeType":"text/html","count":"105128"}
+    {"mimeType":"application/zip","count":"52"}
+    {"mimeType":"image/vnd.microsoft.icon","count":"252"}
+    {"mimeType":"application/x-7z-compressed","count":"1"}
+]
+Total filtered count: 258664
+
+Summary:
+application/* - 127223
+image/* - 21013
+text/* - 108194
+
+
+NaiveBayes (Iteration 10):
+
+FILTERED Stats:
+[
+    {"mimeType":"application/xml","count":"9"}
+    {"mimeType":"image/png","count":"2724"}
+    {"mimeType":"application/octet-stream","count":"91534"}
+    {"mimeType":"image/jpeg","count":"35955"}
+    {"mimeType":"message/rfc822","count":"10"}
+    {"mimeType":"application/pdf","count":"34"}
+    {"mimeType":"application/msword","count":"1"}
+    {"mimeType":"application/atom+xml","count":"1"}
+    {"mimeType":"image/gif","count":"449"}
+    {"mimeType":"image/svg+xml","count":"8"}
+    {"mimeType":"application/rss+xml","count":"11"}
+    {"mimeType":"image/webp","count":"1"}
+    {"mimeType":"application/xhtml+xml","count":"22500"}
+    {"mimeType":"application/x-tika-msoffice","count":"1"}
+    {"mimeType":"text/html","count":"152919"}
+    {"mimeType":"text/x-matlab","count":"12"}
+    {"mimeType":"application/zip","count":"14"}
+    {"mimeType":"image/vnd.microsoft.icon","count":"38"}
+    {"mimeType":"text/plain","count":"122752"}
+]
+Total filtered count: 428973
+
+Summary:
+application/* - 114115
+image/* - 36451
+text/* - 275683
+
+(Iteration 15)
+FILTERED Stats:
+[
+    {"mimeType":"application/xml","count":"13"}
+    {"mimeType":"image/png","count":"3391"}
+    {"mimeType":"application/octet-stream","count":"136427"}
+    {"mimeType":"image/jpeg","count":"36463"}
+    {"mimeType":"message/rfc822","count":"10"}
+    {"mimeType":"application/pdf","count":"625"}
+    {"mimeType":"application/msword","count":"1"}
+    {"mimeType":"application/atom+xml","count":"1"}
+    {"mimeType":"application/x-tika-ooxml","count":"6"}
+    {"mimeType":"image/gif","count":"505"}
+    {"mimeType":"image/svg+xml","count":"8"}
+    {"mimeType":"application/rss+xml","count":"15"}
+    {"mimeType":"image/webp","count":"1"}
+    {"mimeType":"application/xhtml+xml","count":"26703"}
+    {"mimeType":"application/x-tika-msoffice","count":"5"}
+    {"mimeType":"audio/mpeg","count":"16"}
+    {"mimeType":"text/html","count":"317525"}
+    {"mimeType":"text/x-matlab","count":"22"}
+    {"mimeType":"application/zip","count":"25"}
+    {"mimeType":"application/vnd.ms-excel","count":"2"}
+    {"mimeType":"image/vnd.microsoft.icon","count":"41"}
+    {"mimeType":"text/plain","count":"123010"}
+]
+Total filtered count: 644815
+
+Summary:
+image/* - 40408
+
+
+Cosine (Iteration 10):
+
+FILTERED Stats:
+[
+    {"mimeType":"image/png","count":"1"}
+    {"mimeType":"text/html","count":"19007"}
+    {"mimeType":"application/octet-stream","count":"155"}
+    {"mimeType":"image/jpeg","count":"2"}
+    {"mimeType":"image/gif","count":"1"}
+    {"mimeType":"image/vnd.microsoft.icon","count":"1"}
+    {"mimeType":"application/xhtml+xml","count":"1295"}
+    {"mimeType":"text/plain","count":"906"}
+]
+Total filtered count: 21368
+
+Summary:
+application/* - 1450 
+image/* - 5
+text/* - 19913
+
+FILTERED Stats:
+[
+    {"mimeType":"image/png","count":"1"}
+    {"mimeType":"text/html","count":"49797"}
+    {"mimeType":"application/octet-stream","count":"496"}
+    {"mimeType":"image/jpeg","count":"2"}
+    {"mimeType":"application/pdf","count":"1"}
+    {"mimeType":"image/gif","count":"1"}
+    {"mimeType":"image/vnd.microsoft.icon","count":"1"}
+    {"mimeType":"application/xhtml+xml","count":"3483"}
+    {"mimeType":"text/plain","count":"2132"}
+]
+Total filtered count: 55914
+
+Summary:
+image/* - 5

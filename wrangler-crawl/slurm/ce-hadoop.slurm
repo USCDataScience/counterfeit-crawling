@@ -47,6 +47,7 @@ sleep 5;
 date; 
 if [ `hadoop fs -ls ${SEED} > /dev/null 2>&1; echo $? != 0` ]; then hadoop fs -copyFromLocal ${PCF_SEEDS}/${SEED} ${SEED}; fi;
 ${NUTCH_HOME}/bin/crawl ${SEED} crawl-${SEED} 10;
+
 echo "Copying data from HDFS to Local";
 hadoop fs -copyToLocal crawl-${SEED} ${PCF_CRAWLING_LIVE}/crawl-${SEED}-${SLURM_JOBID};
 if [ ${PCF_KAFKA} == "ON" ]; then 

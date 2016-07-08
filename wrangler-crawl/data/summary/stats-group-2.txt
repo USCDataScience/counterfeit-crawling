@@ -1,0 +1,156 @@
+Group 2:
+
+Default (Only Http/Iteration 15):
+FILTERED Stats:
+[
+    {"mimeType":"application/xml","count":"918"}
+    {"mimeType":"image/png","count":"10653"}
+    {"mimeType":"application/octet-stream","count":"1162"}
+    {"mimeType":"image/jpeg","count":"134177"}
+    {"mimeType":"application/pdf","count":"5"}
+    {"mimeType":"application/atom+xml","count":"3"}
+    {"mimeType":"image/gif","count":"85"}
+    {"mimeType":"image/x-ms-bmp","count":"10"}
+    {"mimeType":"image/svg+xml","count":"22"}
+    {"mimeType":"application/xhtml+xml","count":"1528"}
+    {"mimeType":"text/html","count":"233215"}
+    {"mimeType":"application/zip","count":"8"}
+    {"mimeType":"image/vnd.microsoft.icon","count":"1"}
+    {"mimeType":"video/mp4","count":"1"}
+    {"mimeType":"text/plain","count":"925"}
+]
+Total filtered count: 382713
+
+Summary:
+application/* - 3625
+image/* - 144948
+text/* - 2333081
+
+(Both/Iteration 15)
+FILTERED Stats:
+[
+    {"mimeType":"application/xml","count":"918"}
+    {"mimeType":"image/png","count":"11625"}
+    {"mimeType":"application/octet-stream","count":"1176"}
+    {"mimeType":"image/jpeg","count":"155810"}
+    {"mimeType":"application/pdf","count":"5"}
+    {"mimeType":"application/atom+xml","count":"3"}
+    {"mimeType":"image/gif","count":"86"}
+    {"mimeType":"image/x-ms-bmp","count":"10"}
+    {"mimeType":"image/svg+xml","count":"22"}
+    {"mimeType":"application/xhtml+xml","count":"1528"}
+    {"mimeType":"text/html","count":"233215"}
+    {"mimeType":"application/zip","count":"8"}
+    {"mimeType":"image/vnd.microsoft.icon","count":"1"}
+    {"mimeType":"video/mp4","count":"1"}
+    {"mimeType":"text/plain","count":"925"}
+]
+Total filtered count: 405333
+
+Summary:
+image/* - 167542
+
+
+External (Iteration 10):
+
+FILTERED Stats:
+[
+    {"mimeType":"application/xml","count":"32"}
+    {"mimeType":"image/png","count":"4366"}
+    {"mimeType":"application/octet-stream","count":"75129"}
+    {"mimeType":"image/jpeg","count":"72505"}
+    {"mimeType":"application/pdf","count":"13"}
+    {"mimeType":"application/atom+xml","count":"27"}
+    {"mimeType":"application/x-tika-ooxml","count":"1"}
+    {"mimeType":"image/gif","count":"365"}
+    {"mimeType":"image/x-ms-bmp","count":"2"}
+    {"mimeType":"application/rss+xml","count":"107"}
+    {"mimeType":"image/svg+xml","count":"15"}
+    {"mimeType":"application/xhtml+xml","count":"15946"}
+    {"mimeType":"application/x-tika-msoffice","count":"1"}
+    {"mimeType":"text/html","count":"244330"}
+    {"mimeType":"text/x-matlab","count":"7"}
+    {"mimeType":"application/zip","count":"1"}
+    {"mimeType":"image/vnd.microsoft.icon","count":"46"}
+    {"mimeType":"text/plain","count":"1011"}
+]
+Total filtered count: 413904
+
+Summary:
+application/* - 91227
+image/* - 77269
+text/* - 245348
+
+
+NaiveBayes (Iteration 10):
+
+FILTERED Stats:
+[
+    {"mimeType":"application/xml","count":"2"}
+    {"mimeType":"image/png","count":"10048"}
+    {"mimeType":"application/octet-stream","count":"35103"}
+    {"mimeType":"image/jpeg","count":"4014"}
+    {"mimeType":"application/pdf","count":"4"}
+    {"mimeType":"image/gif","count":"140"}
+    {"mimeType":"image/x-ms-bmp","count":"4"}
+    {"mimeType":"application/rss+xml","count":"8"}
+    {"mimeType":"image/svg+xml","count":"1"}
+    {"mimeType":"application/xhtml+xml","count":"8238"}
+    {"mimeType":"text/html","count":"311132"}
+    {"mimeType":"image/vnd.microsoft.icon","count":"19"}
+    {"mimeType":"text/plain","count":"357"}
+]
+Total filtered count: 369070
+
+Summary:
+application/* - 43355 
+image/* - 14226
+text/* - 311489
+
+
+Cosine (Iteration 15):
+
+FILTERED Stats:
+[
+    {"mimeType":"application/xml","count":"837"}
+    {"mimeType":"audio/x-mpegurl","count":"1"}
+    {"mimeType":"image/jpeg","count":"53253"}
+    {"mimeType":"application/atom+xml","count":"415"}
+    {"mimeType":"image/gif","count":"2734"}
+    {"mimeType":"image/x-ms-bmp","count":"3"}
+    {"mimeType":"image/svg+xml","count":"167"}
+    {"mimeType":"text/x-php","count":"4"}
+    {"mimeType":"application/x-shockwave-flash","count":"2"}
+    {"mimeType":"image/webp","count":"73"}
+    {"mimeType":"application/xhtml+xml","count":"53815"}
+    {"mimeType":"application/postscript","count":"2"}
+    {"mimeType":"application/x-tika-msoffice","count":"24"}
+    {"mimeType":"text/x-matlab","count":"423"}
+    {"mimeType":"application/gzip","count":"4"}
+    {"mimeType":"text/plain","count":"8491"}
+    {"mimeType":"image/png","count":"18346"}
+    {"mimeType":"application/octet-stream","count":"27262"}
+    {"mimeType":"application/pdf","count":"1878"}
+    {"mimeType":"application/x-tika-ooxml","count":"31"}
+    {"mimeType":"application/rdf+xml","count":"15"}
+    {"mimeType":"application/vnd.google-earth.kml+xml","count":"1"}
+    {"mimeType":"application/rss+xml","count":"3102"}
+    {"mimeType":"text/x-perl","count":"3"}
+    {"mimeType":"application/epub+zip","count":"2"}
+    {"mimeType":"application/x-elc","count":"10"}
+    {"mimeType":"audio/mpeg","count":"10"}
+    {"mimeType":"application/rtf","count":"13"}
+    {"mimeType":"video/x-ms-wmv","count":"1"}
+    {"mimeType":"text/html","count":"224656"}
+    {"mimeType":"application/zip","count":"29"}
+    {"mimeType":"image/vnd.microsoft.icon","count":"354"}
+    {"mimeType":"application/x-gtar","count":"1"}
+    {"mimeType":"video/quicktime","count":"11"}
+    {"mimeType":"video/mp4","count":"1"}
+]
+Total filtered count: 395974
+
+Summary:
+application/* - 87457 
+image/* - 74919
+text/* - 225086
