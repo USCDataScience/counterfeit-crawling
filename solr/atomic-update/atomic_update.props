@@ -1,0 +1,7 @@
+solr.url = http://localhost:8983/solr/counterfeitdev
+solr.qry = *:*
+solr.sort = indexedAt asc
+solr.start = 0
+solr.rows = 10
+solr.fl = id
+solr.limit = 25

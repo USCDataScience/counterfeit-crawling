@@ -1,0 +1,1 @@
+Scripts used to dump the nutch segment data, and divide it into equal sized lists that can be run in concurrent jobs for indexing to Solr. 

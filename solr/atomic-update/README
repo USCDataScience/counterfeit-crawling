@@ -1,0 +1,1 @@
+Atomic update to the Solr index, specifically to add the field for the extracted serial numbers from using Tesseract on the crawled images. 
