@@ -15,7 +15,7 @@ Changed Nutch to run in single-threaded fetching to support Selenium plugin. Edi
 parameters in Nutch crawl script to single node.
 
 
-2: Nutchpy and Report Generation
+2: Nutchpy (Deprecated)
 -------------------------------------------
 Wrote Nutchpy script to generate crawl statistics on crawldb dumps, scanning MIME types, 
 and finding failed URLS. 
@@ -81,7 +81,8 @@ Resource: https://github.com/chrismattmann/tika-similarity
 9: Wrangler Crawl
 -------------------------------------------
 Adapted crawls for the Wrangler supercomputer, including regular and hadoop runs over a larger
-seed list.
+seed list. Custom selenium handlers and test with Ghostdriver for headless and parallelizable
+web crawling with sites with Javascript.
 
 Link: https://memexproxy.com/wiki/display/MEM/Counterfeit+Electronics+Crawl
 
