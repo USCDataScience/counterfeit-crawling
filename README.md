@@ -78,6 +78,23 @@ and D3 to visualize data in clusters.
 Resource: https://github.com/chrismattmann/tika-similarity
 
 
+9: Wrangler Crawl
+-------------------------------------------
+Adapted crawls for the Wrangler supercomputer, including regular and hadoop runs over a larger
+seed list.
+
+Link: https://memexproxy.com/wiki/display/MEM/Counterfeit+Electronics+Crawl
+
+
 9: Solr Indexing
 -------------------------------------------
-Indexed the crawled data on Apache Solr to allow queries.
+Indexed the crawled data on Apache Solr to allow queries. Atomic updates to the parsed pages
+including titles, outlinks, aggregated dates, and extracted serial numbers from Tesseract OCR.
+
+
+10: Summary Statistics
+--------------------------------------------
+Generate summary statistics for all the Wrangler crawls, update the statistics to the MEMEX
+wiki page.
+
+Link: https://memexproxy.com/wiki/display/MEM/Counterfeit+Electronics+Statistics
