@@ -8,16 +8,64 @@ import codecs
 import robotparser
 
 from urlparse import urlparse
+
+import httplib
 import urllib
 import re
+import sys
+
+import signal
+
+class TimeoutError(Exception):
+    pass
+
+
+def handleTimeout(signum, frame):
+    print "Timeout occured"
+    
+    raise TimeoutError("Timeout. Quitting function...")
+
+
+def checkUrl(url):
+    """
+    Check if a URL exists
+    """
+    import socket
+    socket.setdefaulttimeout(5)
+
+    try:
+        p = urlparse(url)
+        conn = httplib.HTTPConnection(p.netloc)
+        conn.request('HEAD', p.path)
+        resp = conn.getresponse()
+        return resp.status < 400
+    except:
+        return False
+    
+    
+def checkRobots(url):
+    # HTTP errors and robots.txt bans are grouped together
+    try:
+        parser.set_url(domain_url + '/robots.txt')        
+        parser.read()
+        
+        if parser.can_fetch('*', domain_url):
+            return True
+        else:
+            return False
+    except:
+        return False                               
+                   
 
 def hasLogin(url):
     """
     Detect if a certain URL has a login form
     """
-
-    f = urllib.urlopen(url)
-    html = f.read()
+    try:
+        f = urllib.urlopen(url)
+        html = f.read()
+    except:
+        return False
     
     pattern_password = r'<[a-z]+.*?(type="password"|name="password").*?>'
     pattern_login = r'<a.*?>(((l|L)og|(s|S)ign) (i|I)n)</a>'
@@ -26,12 +74,12 @@ def hasLogin(url):
     if search:
        return True
     
-    """
     search = re.search(pattern_login, html, re.I)
     if search:
         return True
-    """
+    
     return False
+
 
 
 def getSummaryStats(input_dir, output_dir):
@@ -55,18 +103,25 @@ def getSummaryStats(input_dir, output_dir):
     robots_allowed = 0
     
     login_num = 0
-
+    
+    timeout_num = 0
     # Keep track of banned domains
     parser = robotparser.RobotFileParser()
     
     banned = []
     login = []
+    domain_urls = []
+    timeout = []
     
     # Use extensions to detect image URLs
     extensions = ['jpeg', 'jpg', 'gif', 'png', 'bmp', 'tif', 'tiff', 'ico']
     
+    signal.signal(signal.SIGALRM, handleTimeout)
+    
     for f in files:
         print "Checking ... ", f
+        sys.stdout.flush()
+        
         fileRead = open(f, 'r')
         for line in fileRead:
             if line.startswith('URL'):
@@ -78,29 +133,60 @@ def getSummaryStats(input_dir, output_dir):
                 # Read the domain for a robots.txt, if it is first time seeing that domain
                 if total.get(domain, 0) == 0:
                     domain_url = url_parsed.scheme + '://' + url_parsed.netloc
+                    domain_urls.append(domain_url)
                     
-                    print domain_url
-                    # HTTP errors and robots.txt bans are grouped together
+                    print "Reading /robots.txt: ", domain_url
+                    sys.stdout.flush()
+                    
+                    signal.alarm(5)
+                    
                     try:
-                        parser.set_url(domain_url + '/robots.txt')
-                        parser.read()
-                        
-                        if parser.can_fetch('*', domain_url):
+                        if checkRobots(domain_url + '/robots.txt'):
                             robots_allowed += 1
                         else:
                             banned.append(domain)
                             robots_banned += 1
-                    except:
+                        
+                            print "Banned: ", domain
+                            sys.stdout.flush()
+                    except TimeoutError, e:
+                        timeout_num += 1
+                        timeout.append(domain)
+
+                        print "%s: " % domain_url, e
+                        sys.stdout.flush()
+
+                    signal.alarm(0)
+ 
+                    if checkUrl(domain_url + '/robots.txt'):
+                        robots_allowed += 1
+                    else:
                         banned.append(domain)
                         robots_banned += 1
                     
-                    # Check if the page contains a login form
-                    """
-                    if hasLogin(domain_url):
-                        login_num += 1
-                        login.append(domain)
-                    """
-
+                    
+                    print "Scanning for login: ", domain_url
+                    sys.stdout.flush()
+                   
+                    signal.alarm(3)
+                    
+                    try:
+                        # Check if the page contains a login form
+                        if hasLogin(domain_url):
+                            login_num += 1
+                            print "Login: ", domain
+                            sys.stdout.flush()
+                        
+                            login.append(domain)
+                    except TimeoutError, e:
+                        timeout_num += 1
+                        timeout.append(domain)
+                        
+                        print "%s: " % domain_url, e
+                        sys.stdout.flush()
+                        
+                    signal.alarm(0)
+ 
                 total_num += 1
                 total[domain] = total.get(domain, 0) + 1
                 
@@ -116,6 +202,9 @@ def getSummaryStats(input_dir, output_dir):
     print
     print "Robots Allowed: ", robots_allowed
     print "Robots Banned: ", robots_banned
+    print
+    print "Logins: ", login_num
+    sys.stdout.flush()
     
     # Write to output files
     errors = 0
@@ -137,20 +226,44 @@ def getSummaryStats(input_dir, output_dir):
                 o.write('%s, %d\n' %(host, count))
             except:
                 continue
-    
+            
     with codecs.open(output_dir + '/banned.txt', 'w', 'utf-8') as o:
         for host in banned:
-            host = host.decode('utf-9')
+            host = host.decode('utf-8')
             try:
-                o.write('%s, %d\n' % host)
+                o.write('%s\n' % host)
             except:
                 continue
-
+    
+    with codecs.open(output_dir + '/login.txt', 'w', 'utf-8') as o:
+        for host in login:
+            host = host.decode('utf-8')
+            try:
+                o.write('%s\n' %host)
+            except:
+                continue
+    
+    with codecs.open(output_dir + '/domains.txt', 'w', 'utf-8') as o:
+        for url in domain_urls:
+            try:
+                o.write('%s\n' %url.decode('utf-8'))
+            except:
+                continue
+        
+    with codecs.open(output_dir + '/timeout.txt', 'w', 'utf-8') as o:
+        for host in timeout:
+            host = host.decode('utf-8')
+            try:
+                o.write('%s\n' %host)
+            except:
+                continue
+    
     print "Error Domains: ", errors
+    
 
 
 def main(argv=sys.argv):
-    usage = "seugment-reader.py -i <input_dir> -o <output_dir>"
+    usage = "segment-reader.py -i <input_dir> -o <output_dir>"
     input = ""
     output = ""
     try:
