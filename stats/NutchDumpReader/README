@@ -1,0 +1,1 @@
+Attempts to reconstruct Nutch dump path and use it to read the raw html content, since connecting to each URL and getting content that way proved way too slow.

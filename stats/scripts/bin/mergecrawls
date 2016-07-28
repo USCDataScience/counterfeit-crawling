@@ -1,0 +1,71 @@
+# Nutch merge crawls script.
+# Based on recrawl script
+#
+# The script merges all crawls in a directory
+#
+# USE ABSOLUTE PATHS for the script args
+
+if [ -n "$1" ]
+then
+    new_crawl=$1
+    if [ -d $1 ]; then
+	echo "error: crawl already exists: '$1'"
+	exit 1
+    fi
+else
+    echo "Usage: bin/mergecrawls newcrawl-path crawl-directory-path"
+    exit 1
+fi
+
+if [ -n "$2" ]
+then
+    crawl_dir=$2
+else
+    echo "Usage: bin/mergecrawls newcrawl-path crawl-directory-path"
+    exit 1
+fi
+
+#Sets the path to bin
+nutch_dir=`dirname $0`
+
+echo "Creating new crawl in: " $new_crawl 
+mkdir $new_crawl
+webdb_dir=$new_crawl/crawldb
+segments_dir=$new_crawl/segments
+linkdb_dir=$new_crawl/linkdb
+index_dir=$new_crawl/index
+
+echo Merge linkdb
+linkdbs='ls -d $crawl_dir/crawl-*/linkdb'
+echo "$nutch_dir/nutch mergelinkdb $linkdb_dir $linkdbs"
+$nutch_dir/nutch mergelinkdb $linkdb_dir $linkdbs
+
+echo Merge crawldb
+crawldbs='ls -d $crawl_dir/crawl-*/crawldb'
+echo "$nutch_dir/nutch mergedb $webdb_dir $crawldbs"
+$nutch_dir/nutch mergedb $webdb_dir $crawldbs
+
+echo Merge segments 
+segments='ls -d $crawl_dir/crawl-*/segments/*'
+echo "$nutch_dir/nutch mergesegs $segments_dir $segments -filter -slice 50000"
+$nutch_dir/nutch mergesegs $segments_dir $segments -filter -slice 50000
+
+
+# From there, identical to recrawl.sh
+
+echo Update segments
+$nutch_dir/nutch invertlinks $linkdb_dir -dir $segments_dir
+
+echo Index segments
+new_indexes=$new_crawl/newindexes
+segment=`ls -d $segments_dir/* | tail -1`
+$nutch_dir/nutch index $new_indexes $webdb_dir $linkdb_dir $segment
+
+echo De-duplicate indexes
+$nutch_dir/nutch dedup $new_indexes
+
+echo Merge indexes
+$nutch_dir/nutch merge $index_dir $new_indexes
+
+echo Some stats
+$nutch_dir/nutch readdb $webdb_dir -stats
