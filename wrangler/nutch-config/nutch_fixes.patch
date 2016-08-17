@@ -1,0 +1,278 @@
+--- a/src/plugin/lib-selenium/src/java/org/apache/nutch/protocol/selenium/HttpWebClient.java
++++ b/src/plugin/lib-selenium/src/java/org/apache/nutch/protocol/selenium/HttpWebClient.java
+@@ -100,8 +100,15 @@ public class HttpWebClient {
+             driver = new OperaDriver();
+             break;
+           case "phantomjs":
+-            driver = new PhantomJSDriver();
+-            break;
++	      String phantomjsBinary = conf.get("selenium.phantomjs.binary");
++	      
++	      capabilities = DesiredCapabilities.phantomjs();
++	      capabilities.setBrowserName("phantomjs");
++	      capabilities.setJavascriptEnabled(true);
++	      capabilities.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,phantomjsBinary);
++	      
++	      driver = new PhantomJSDriver(capabilities);
++	      break;
+           case "remote":
+             String seleniumHubHost = conf.get("selenium.hub.host", "localhost");
+             int seleniumHubPort = Integer.parseInt(conf.get("selenium.hub.port", "4444"));
+@@ -109,6 +116,7 @@ public class HttpWebClient {
+             String seleniumHubProtocol = conf.get("selenium.hub.protocol", "http");
+             String seleniumGridDriver = conf.get("selenium.grid.driver","firefox");
+             String seleniumGridBinary = conf.get("selenium.grid.binary");
++	    String phantomjsBinary = conf.get("selenium.phantomjs.binary");
+ 
+             switch (seleniumGridDriver){
+               case "firefox":
+@@ -120,10 +128,10 @@ public class HttpWebClient {
+                 driver = new RemoteWebDriver(new URL(seleniumHubProtocol, seleniumHubHost, seleniumHubPort, seleniumHubPath), capabilities);
+                 break;
+               case "phantomjs":
+-                capabilities = DesiredCapabilities.phantomjs();
++	        capabilities = DesiredCapabilities.phantomjs();
+                 capabilities.setBrowserName("phantomjs");
+                 capabilities.setJavascriptEnabled(true);
+-                capabilities.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,seleniumGridBinary);
++                capabilities.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY,phantomjsBinary);
+                 driver = new RemoteWebDriver(new URL(seleniumHubProtocol, seleniumHubHost, seleniumHubPort, seleniumHubPath), capabilities);
+                 break;
+               default:
+diff --git a/src/plugin/protocol-interactiveselenium/src/java/org/apache/nutch/protocol/interactiveselenium/HttpResponse.java b/src/plugin/protocol-interactiveselenium/src/java/org/apache/nutch/protocol/interactiveselenium/HttpResponse.java
+index a1ccf29..4f77fa0 100644
+--- a/src/plugin/protocol-interactiveselenium/src/java/org/apache/nutch/protocol/interactiveselenium/HttpResponse.java
++++ b/src/plugin/protocol-interactiveselenium/src/java/org/apache/nutch/protocol/interactiveselenium/HttpResponse.java
+@@ -27,6 +27,9 @@ import java.net.InetSocketAddress;
+ import java.net.Socket;
+ import java.net.URL;
+ 
++import javax.net.ssl.SSLSocket;
++import javax.net.ssl.SSLSocketFactory;
++
+ import org.apache.hadoop.conf.Configuration;
+ import org.apache.nutch.crawl.CrawlDatum;
+ import org.apache.nutch.metadata.Metadata;
+@@ -55,6 +58,10 @@ public class HttpResponse implements Response {
+ 
+   /** The nutch configuration */
+   private Configuration conf = null;
++        
++    protected enum Scheme {
++	HTTP, HTTPS
++    }
+ 
+   public HttpResponse(Http http, URL url, CrawlDatum datum) throws ProtocolException, IOException {
+ 
+@@ -64,11 +71,16 @@ public class HttpResponse implements Response {
+     this.orig = url.toString();
+     this.base = url.toString();
+ 
+-    if (!"http".equals(url.getProtocol()))
+-      throw new HttpException("Not an HTTP url:" + url);
+-
+-    if (Http.LOG.isTraceEnabled()) {
+-      Http.LOG.trace("fetching " + url);
++    Scheme scheme = null;
++	
++    if ("http".equals(url.getProtocol())) {
++        scheme = Scheme.HTTP;
++    }
++    else if ("https".equals(url.getProtocol())) {
++        scheme = Scheme.HTTPS;
++    }
++    else {
++	throw new HttpException("Unknown scheme (not http/https):" + url);
+     }
+ 
+     String path = "".equals(url.getFile()) ? "/" : url.getFile();
+@@ -81,12 +93,18 @@ public class HttpResponse implements Response {
+     int port;
+     String portString;
+     if (url.getPort() == -1) {
+-      port = 80;
+-      portString = "";
++        if (scheme == Scheme.HTTP) {
++            port = 80;
++        }
++        else {
++            port = 443;
++        }
++        portString = "";
+     } else {
+-      port = url.getPort();
+-      portString = ":" + port;
++	port = url.getPort();
++	portString = ":" + port;
+     }
++
+     Socket socket = null;
+ 
+     try {
+@@ -99,6 +117,38 @@ public class HttpResponse implements Response {
+       InetSocketAddress sockAddr = new InetSocketAddress(sockHost, sockPort);
+       socket.connect(sockAddr, http.getTimeout());
+ 
++            if (scheme == Scheme.HTTPS) {
++          SSLSocketFactory factory = (SSLSocketFactory) SSLSocketFactory
++              .getDefault();
++          SSLSocket sslsocket = (SSLSocket) factory
++              .createSocket(socket, sockHost, sockPort, true);
++          sslsocket.setUseClientMode(true);
++
++          // Get the protocols and ciphers supported by this JVM
++          Set<String> protocols = new HashSet<String>(
++	      Arrays.asList(sslsocket.getSupportedProtocols()));
++          Set<String> ciphers = new HashSet<String>(
++	      Arrays.asList(sslsocket.getSupportedCipherSuites()));
++
++          // Intersect with preferred protocols and ciphers
++          protocols.retainAll(http.getTlsPreferredProtocols());
++          ciphers.retainAll(http.getTlsPreferredCipherSuites());
++
++          sslsocket.setEnabledProtocols(
++	      protocols.toArray(new String[protocols.size()]));
++          sslsocket.setEnabledCipherSuites(
++	      ciphers.toArray(new String[ciphers.size()]));
++
++          sslsocket.startHandshake();
++          socket = sslsocket;
++      }
++
++      this.conf = http.getConf();
++      if (sockAddr != null
++          && conf.getBoolean("store.ip.address", false) == true) {
++          headers.add("_ip_", sockAddr.getAddress().getHostAddress());
++      }
++
+       // make request
+       OutputStream req = socket.getOutputStream();
+ 
+diff --git a/src/plugin/protocol-selenium/src/java/org/apache/nutch/protocol/selenium/HttpResponse.java b/src/plugin/protocol-selenium/src/java/org/apache/nutch/protocol/selenium/HttpResponse.java
+index 681e838..d99fa13 100644
+--- a/src/plugin/protocol-selenium/src/java/org/apache/nutch/protocol/selenium/HttpResponse.java
++++ b/src/plugin/protocol-selenium/src/java/org/apache/nutch/protocol/selenium/HttpResponse.java
+@@ -27,6 +27,9 @@ import java.net.InetSocketAddress;
+ import java.net.Socket;
+ import java.net.URL;
+ 
++import javax.net.ssl.SSLSocket;
++import javax.net.ssl.SSLSocketFactory;
++
+ import org.apache.hadoop.conf.Configuration;
+ import org.apache.nutch.crawl.CrawlDatum;
+ import org.apache.nutch.metadata.Metadata;
+@@ -51,6 +54,10 @@ public class HttpResponse implements Response {
+ 
+   /** The nutch configuration */
+   private Configuration conf = null;
++    
++    protected enum Scheme {
++	HTTP, HTTPS
++    }
+ 
+   public HttpResponse(Http http, URL url, CrawlDatum datum) throws ProtocolException, IOException {
+ 
+@@ -59,12 +66,17 @@ public class HttpResponse implements Response {
+     this.url = url;
+     this.orig = url.toString();
+     this.base = url.toString();
++    
++    Scheme scheme = null;
+ 
+-    if (!"http".equals(url.getProtocol()))
+-      throw new HttpException("Not an HTTP url:" + url);
+-
+-    if (Http.LOG.isTraceEnabled()) {
+-      Http.LOG.trace("fetching " + url);
++    if ("http".equals(url.getProtocol())) {
++        scheme = Scheme.HTTP;
++    }
++    else if ("https".equals(url.getProtocol())) {
++        scheme = Scheme.HTTPS;
++    }
++    else {
++	throw new HttpException("Unknown scheme (not http/https):" + url);
+     }
+ 
+     String path = "".equals(url.getFile()) ? "/" : url.getFile();
+@@ -77,12 +89,18 @@ public class HttpResponse implements Response {
+     int port;
+     String portString;
+     if (url.getPort() == -1) {
+-      port = 80;
+-      portString = "";
++        if (scheme == Scheme.HTTP) {
++            port = 80;
++        }
++        else {
++            port = 443;
++        }
++        portString = "";
+     } else {
+-      port = url.getPort();
+-      portString = ":" + port;
++	port = url.getPort();
++	portString = ":" + port;
+     }
++
+     Socket socket = null;
+ 
+     try {
+@@ -94,6 +112,38 @@ public class HttpResponse implements Response {
+       int sockPort = http.useProxy(url) ? http.getProxyPort() : port;
+       InetSocketAddress sockAddr = new InetSocketAddress(sockHost, sockPort);
+       socket.connect(sockAddr, http.getTimeout());
++      
++      if (scheme == Scheme.HTTPS) {
++          SSLSocketFactory factory = (SSLSocketFactory) SSLSocketFactory
++              .getDefault();
++          SSLSocket sslsocket = (SSLSocket) factory
++              .createSocket(socket, sockHost, sockPort, true);
++          sslsocket.setUseClientMode(true);
++
++          // Get the protocols and ciphers supported by this JVM
++          Set<String> protocols = new HashSet<String>(
++	      Arrays.asList(sslsocket.getSupportedProtocols()));
++          Set<String> ciphers = new HashSet<String>(
++	      Arrays.asList(sslsocket.getSupportedCipherSuites()));
++
++          // Intersect with preferred protocols and ciphers
++          protocols.retainAll(http.getTlsPreferredProtocols());
++          ciphers.retainAll(http.getTlsPreferredCipherSuites());
++
++          sslsocket.setEnabledProtocols(
++	      protocols.toArray(new String[protocols.size()]));
++          sslsocket.setEnabledCipherSuites(
++	      ciphers.toArray(new String[ciphers.size()]));
++
++          sslsocket.startHandshake();
++          socket = sslsocket;
++      }
++
++      this.conf = http.getConf();
++      if (sockAddr != null
++          && conf.getBoolean("store.ip.address", false) == true) {
++          headers.add("_ip_", sockAddr.getAddress().getHostAddress());
++      }
+ 
+       // make request
+       OutputStream req = socket.getOutputStream();
+diff --git a/src/plugin/scoring-similarity/src/java/org/apache/nutch/scoring/similarity/cosine/CosineSimilarity.java b/src/plugin/scoring-similarity/src/java/org/apache/nutch/scoring/similarity/cosine/CosineSimilarity.java
+index 9853b34..6024088 100644
+--- a/src/plugin/scoring-similarity/src/java/org/apache/nutch/scoring/similarity/cosine/CosineSimilarity.java
++++ b/src/plugin/scoring-similarity/src/java/org/apache/nutch/scoring/similarity/cosine/CosineSimilarity.java
+@@ -74,7 +74,12 @@ public class CosineSimilarity implements SimilarityModel{
+   public CrawlDatum distributeScoreToOutlinks(Text fromUrl, ParseData parseData,
+       Collection<Entry<Text, CrawlDatum>> targets, CrawlDatum adjust,
+       int allCount) {
+-    float score = Float.parseFloat(parseData.getContentMeta().get(Nutch.SCORE_KEY));
++      
++      float score = 0.00f;
++      
++      if (parseData.getContentMeta().get(Nutch.SCORE_KEY) != null)
++	  score = Float.parseFloat(parseData.getContentMeta().get(Nutch.SCORE_KEY));
++      
+     for (Entry<Text, CrawlDatum> target : targets) {
+       target.getValue().setScore(score);
+     }
